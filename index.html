@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>田中賢斗｜Web制作・業務自動化｜小さなお店・個人事業のホームページと業務の自動化</title>
+<meta name="description" content="ホームページ制作、LP制作、スプレッドシート・Excelの自動化、予約フォーム。現役システムエンジニアが低価格・短納期で対応します。">
+<style>
+:root{--ink:#1d2433;--sub:#5b6577;--accent:#1f7a5a;--bg:#f6f8f7;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;color:var(--ink);line-height:1.8;background:var(--bg)}
+a{color:var(--accent)}.wrap{max-width:1040px;margin:auto;padding:0 20px}
+header{background:#fff;border-bottom:1px solid #e3e8e6}header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-weight:800;font-size:20px}.logo span{color:var(--accent)}
+nav a{margin-left:18px;text-decoration:none;color:var(--ink);font-size:14px}
+.hero{background:linear-gradient(135deg,#1f7a5a,#2f9e78);color:#fff;padding:80px 0 72px}
+.hero h1{font-size:clamp(28px,5vw,44px);line-height:1.35;margin:0 0 16px}.hero p{font-size:18px;opacity:.95;margin:0 0 28px}
+.btn{display:inline-block;background:#fff;color:var(--accent);padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none}
+section{padding:64px 0}h2{font-size:28px;margin:0 0 8px}.lead{color:var(--sub);margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:var(--card);border-radius:14px;padding:24px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.card h3{margin:0 0 8px;font-size:18px}.price{font-size:26px;font-weight:800;color:var(--accent)}.price small{font-size:14px;color:var(--sub);font-weight:400}
+.tag{display:inline-block;background:#e6f3ee;color:var(--accent);font-size:12px;padding:2px 10px;border-radius:999px;margin-bottom:8px}
+.work{overflow:hidden;padding:0}.work .thumb{height:150px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:22px}
+.work .body{padding:18px 22px}
+.zero{background:#fff8e6;border:2px solid #f2c14e}
+ol.flow{counter-reset:s;list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+ol.flow li{background:#fff;border-radius:12px;padding:20px}ol.flow li::before{counter-increment:s;content:"STEP " counter(s);display:block;color:var(--accent);font-weight:800;font-size:13px}
+footer{background:#1d2433;color:#cfd6e0;padding:32px 0;font-size:13px}
+</style></head><body>
+<header><div class="wrap"><div class="logo">田中賢斗<span>｜</span>Web制作・業務自動化</div><nav><a href="#service">サービス</a><a href="#works">制作例</a><a href="#flow">流れ</a></nav></div></header>
+<div class="hero"><div class="wrap">
+<h1>小さなお店・教室・個人事業の<br>「ITまわり」をまるごと。</h1>
+<p>ホームページ制作から、Excel・スプレッドシートの自動化まで。<br>現役システムエンジニアが、低価格・短納期で対応します。</p>
+<a class="btn" href="#service">料金を見る</a></div></div>
+
+<section id="service"><div class="wrap">
+<h2>サービスと料金</h2><p class="lead">表示はすべて税込。ご相談・お見積りは無料です。</p>
+<div class="grid">
+<div class="card"><span class="tag">いちばん人気</span><h3>ホームページ制作</h3><div class="price">5,000円<small>〜</small></div><p>スマホ対応・3ページ・問い合わせフォーム付き。公開作業まで代行します。</p></div>
+<div class="card"><h3>LP（1枚ページ）</h3><div class="price">3,000円<small>〜</small></div><p>キャンペーン・生徒募集・新サービスの告知に。申込みフォーム付き。</p></div>
+<div class="card"><h3>業務の自動化</h3><div class="price">3,000円<small>〜</small></div><p>転記・集計・請求書作成・メール通知など。Googleスプレッドシート（GAS）・Excel。</p></div>
+<div class="card"><h3>予約・問い合わせフォーム</h3><div class="price">5,000円</div><p>電話受付を減らす。回答の一覧化、自動返信、お店への通知まで。</p></div>
+<div class="card"><h3>月額の保守・運用</h3><div class="price">3,000円<small>/月</small></div><p>更新月2回、不具合対応、アクセス報告。他社制作のサイトもご相談ください。</p></div>
+<div class="card zero"><span class="tag">ご紹介・地域のお店向け</span><h3>制作費0円プラン</h3><div class="price">0円<small>＋運用費</small></div><p>ホームページの制作費0円。公開時に初年度の運用費（サーバー・更新・保守）のみいただきます。</p></div>
+</div></div></section>
+
+<section id="works" style="background:#fff"><div class="wrap">
+<h2>制作例</h2><p class="lead">業種別の見本サイトです（架空のお店です）。</p>
+<div class="grid">
+<a class="card work" href="works/seitai/" style="text-decoration:none;color:inherit"><div class="thumb" style="background:#3b8f7a">整体院</div><div class="body"><h3>整体院のホームページ</h3><p>予約導線・料金表・アクセス。スマホで電話/予約がすぐできる構成。</p></div></a>
+<a class="card work" href="works/cafe/" style="text-decoration:none;color:inherit"><div class="thumb" style="background:#8a5a3c">カフェ</div><div class="body"><h3>カフェのホームページ</h3><p>メニュー・営業日カレンダー・Instagram連携。写真で雰囲気を伝える構成。</p></div></a>
+<a class="card work" href="works/juku/" style="text-decoration:none;color:inherit"><div class="thumb" style="background:#2f5fa8">学習塾</div><div class="body"><h3>学習塾の生徒募集LP</h3><p>冬期講習の申込みLP。フォーム→スプレッドシート→自動返信まで自動化。</p></div></a>
+<a class="card work" href="works/coaching/" style="text-decoration:none;color:inherit"><div class="thumb" style="background:#5f6f3e">コーチング</div><div class="body"><h3>コーチングブランドサイト</h3><p>理念・3つのサービス・初回相談導線。落ち着いた配色で信頼感を出す構成。</p></div></a>
+</div></div></section>
+
+<section id="flow"><div class="wrap">
+<h2>ご依頼の流れ</h2><p class="lead">最短5日で公開できます。</p>
+<ol class="flow"><li>ご相談（メッセージ）<br>業種・載せたい内容を教えてください</li><li>お見積り・ご購入</li><li>3日以内に初稿</li><li>修正2回まで</li><li>公開・使い方のご説明</li></ol>
+</div></section>
+<footer><div class="wrap">© 田中賢斗（Web制作・業務自動化）　ご相談は各サービスのメッセージ機能からお願いします。</div></footer>
+</body></html>
