@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>見積書かんたん作成ツール（見本）｜田中賢斗｜Web制作・業務自動化</title>
+<meta name="description" content="品目を入れるだけで合計と消費税を自動計算する見積書作成ツールの見本。">
+<link rel="stylesheet" href="../../assets/style.css">
+</head><body>
+<header><div class="wrap"><a class="logo" href="../../"><i>DX</i>田中賢斗｜Web制作・業務自動化</a>
+<nav><a href="../../#service">サービス</a><a href="../../#price">料金</a><a href="../../#works">制作例</a><a href="../../about.html">運営者</a><a class="cta" href="../../contact.html">無料相談</a></nav></div></header>
+<div class="page-head"><div class="wrap"><h1>見積書かんたん作成ツール（見本）</h1></div></div><section><div class="wrap">
+<p class="lead">業務ツールの見本です。品目・数量・単価を入れると、小計・消費税・合計を自動で計算します。「印刷」からPDF保存もできます。入力内容はこのパソコンの中だけで使われ、どこにも送信されません。</p>
+<style>
+.sheet{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px}
+.sheet input{border:1px solid #c9d2de;border-radius:6px;padding:8px;font:inherit;width:100%}
+.sheet td,.sheet th{padding:6px}.sheet .num{text-align:right}
+.tot{font-size:22px;font-weight:900;color:var(--navy)}
+@media print{header,footer,.page-head,.lead,.noprint{display:none!important}section{padding:0}.sheet{border:0}.sheet input{border:0;padding:2px}}
+</style>
+<div class="sheet">
+<h2 style="text-align:center;letter-spacing:.4em">御見積書</h2>
+<div class="grid" style="grid-template-columns:1fr 1fr">
+<div><input id="to" value="株式会社サンプル 御中"><p>下記のとおりお見積り申し上げます。</p></div>
+<div><input id="date" type="date"><input id="from" value="田中賢斗｜Web制作・業務自動化" style="margin-top:6px"></div></div>
+<p class="tot">お見積金額　<span id="grand">0</span> 円（税込）</p>
+<table id="t"><thead><tr><th style="width:auto">品目</th><th style="width:12%">数量</th><th style="width:18%">単価（円）</th><th style="width:12%">税率</th><th style="width:18%">金額（円）</th><th class="noprint" style="width:6%"></th></tr></thead><tbody></tbody></table>
+<p class="noprint"><button class="btn" type="button" onclick="addRow()">＋ 行を追加</button> <button class="btn" type="button" onclick="print()">印刷・PDF保存</button></p>
+<table style="width:50%;margin-left:auto"><tr><th>小計</th><td class="num" id="sub">0</td></tr><tr><th>消費税（10%）</th><td class="num" id="t10">0</td></tr><tr><th>消費税（8%）</th><td class="num" id="t8">0</td></tr><tr><th>合計</th><td class="num" id="tot">0</td></tr></table>
+</div>
+<p class="note">実際のツールは、お客さまの品目一覧・取引先一覧と連動させたり、Googleスプレッドシートに履歴を自動保存したりと、業務に合わせて作ります。</p>
+<script>
+const tb=document.querySelector('#t tbody');const yen=n=>Math.round(n).toLocaleString();
+function addRow(n='',q=1,p=0,r=10){const tr=document.createElement('tr');tr.innerHTML='<td><input value="'+n+'"></td><td><input type="number" min="0" value="'+q+'" class="num"></td><td><input type="number" min="0" value="'+p+'" class="num"></td><td><select><option value="10">10%</option><option value="8">8%</option></select></td><td class="num">0</td><td class="noprint"><button type="button" onclick="this.closest(`tr`).remove();calc()">✕</button></td>';tr.querySelector('select').value=r;tb.appendChild(tr);calc()}
+function calc(){let s=0,a=0,b=0;tb.querySelectorAll('tr').forEach(tr=>{const i=tr.querySelectorAll('input');const amt=(+i[1].value||0)*(+i[2].value||0);tr.children[4].textContent=yen(amt);s+=amt;if(tr.querySelector('select').value==='10')a+=amt;else b+=amt});const t10=Math.floor(a*0.1),t8=Math.floor(b*0.08);sub.textContent=yen(s);document.getElementById('t10').textContent=yen(t10);document.getElementById('t8').textContent=yen(t8);tot.textContent=yen(s+t10+t8);grand.textContent=yen(s+t10+t8)}
+document.addEventListener('input',calc);document.addEventListener('change',calc);
+document.getElementById('date').valueAsDate=new Date();
+addRow('ホームページ運用・保守（月額）',12,5000);addRow('業務ツール 初期設定',1,0);
+</script></div></section><footer><div class="wrap">
+<p><a href="../../">トップ</a><a href="../../tools/mitsumori/">ツール見本</a><a href="../../about.html">運営者情報</a><a href="../../privacy.html">プライバシーポリシー</a><a href="../../contact.html">お問い合わせ</a></p>
+<p>© 田中賢斗｜Web制作・業務自動化</p></div></footer>
+</body></html>

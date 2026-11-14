@@ -1,0 +1,32 @@
+:root{--ink:#1d2433;--sub:#5b6577;--navy:#1f4e79;--gold:#f2c14e;--bg:#f5f7fa;--card:#fff;--line:#e2e7ee}
+*{box-sizing:border-box}body{margin:0;font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;color:var(--ink);line-height:1.85;background:var(--bg)}
+a{color:var(--navy)}img{max-width:100%}.wrap{max-width:1080px;margin:auto;padding:0 20px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;justify-content:space-between;align-items:center;min-height:64px;gap:12px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:18px;text-decoration:none;color:var(--ink);display:flex;align-items:center;gap:10px}
+.logo i{display:inline-block;width:34px;height:34px;border-radius:8px;background:var(--navy);color:#fff;font-style:normal;font-size:13px;font-weight:900;text-align:center;line-height:34px}
+nav a{margin-left:16px;text-decoration:none;color:var(--ink);font-size:14px}nav a.cta{background:var(--navy);color:#fff;padding:8px 16px;border-radius:999px}
+.hero{background:linear-gradient(135deg,#1f4e79,#2c6aa3);color:#fff;padding:84px 0 76px}
+.hero .badge{display:inline-block;background:var(--gold);color:#1d2433;font-weight:800;padding:4px 14px;border-radius:999px;font-size:14px;margin-bottom:16px}
+.hero h1{font-size:clamp(28px,5vw,46px);line-height:1.35;margin:0 0 18px}.hero p{font-size:18px;opacity:.95;margin:0 0 28px}
+.btn{display:inline-block;background:var(--gold);color:#1d2433;padding:14px 30px;border-radius:999px;font-weight:800;text-decoration:none;border:0;font-size:16px;cursor:pointer}
+.btn.ghost{background:transparent;color:#fff;border:2px solid #fff;margin-left:8px}
+section{padding:68px 0}section.white{background:#fff}h2{font-size:clamp(24px,3.5vw,30px);margin:0 0 8px}.lead{color:var(--sub);margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border-radius:14px;padding:26px;box-shadow:0 2px 12px rgba(20,40,80,.06);border:1px solid var(--line)}
+.card h3{margin:0 0 8px;font-size:19px}.icon{font-size:30px}
+.price{font-size:30px;font-weight:900;color:var(--navy)}.price small{font-size:14px;color:var(--sub);font-weight:400}
+.plan.best{border:3px solid var(--gold)}.tag{display:inline-block;background:#fff3cf;color:#7a5a00;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;margin-bottom:8px}
+ul.check{padding:0;list-style:none}ul.check li{padding-left:1.6em;position:relative}ul.check li::before{content:"✓";position:absolute;left:0;color:var(--navy);font-weight:900}
+.work{overflow:hidden;padding:0;text-decoration:none;color:inherit}.work .thumb{height:140px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:22px}.work .body{padding:18px 22px}
+ol.flow{counter-reset:s;list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px}
+ol.flow li{background:#fff;border-radius:12px;padding:20px;border:1px solid var(--line)}ol.flow li::before{counter-increment:s;content:"STEP " counter(s);display:block;color:var(--navy);font-weight:800;font-size:13px}
+details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:10px}summary{font-weight:700;cursor:pointer}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;align-items:start}
+.note{font-size:13px;color:var(--sub)}
+table{border-collapse:collapse;width:100%;background:#fff}th,td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}th{background:#f0f4f9;width:30%}
+form label{display:block;font-weight:700;margin:18px 0 6px}form input,form select,form textarea{width:100%;padding:12px;border:1px solid #c9d2de;border-radius:8px;font:inherit;background:#fff}
+.ctaband{background:var(--navy);color:#fff;text-align:center}.ctaband p{opacity:.9}
+footer{background:#16202e;color:#c3ccd8;padding:36px 0;font-size:13px}footer a{color:#c3ccd8;margin-right:16px}
+.page-head{background:#fff;border-bottom:1px solid var(--line);padding:44px 0 30px}.page-head h1{margin:0;font-size:clamp(24px,4vw,34px)}
+.article{background:#fff;border-radius:14px;padding:32px;border:1px solid var(--line)}
