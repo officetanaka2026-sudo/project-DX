@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>茶noma｜松本・丸ノ内 町家の時間制カフェ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#5b3a29;--sand:#f6f0e6;--ink:#2b241f;--sub:#6e6257;--accent:#a0522d;--line:#e4d8c6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide div{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+</style></head><body>
+<header><div class="logo">茶noma<small>ちゃのま｜松本</small></div><nav><a href="#about">お店について</a><a href="#menu">こだわり</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RM4cg7bOOfxnBrf1jjdcAXtLeHM08F2-3jPLTGornOkIyDtLqFKJmu83FxIflUXkTe5ciCTziWYWQPT8qHRpynzbOpHlTwUPIzPWM9oJdiIAw0fw0pTXUhsLej0RMO5k3mlNIgA0ZMurTF=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>築120年の町家で、<br>庭を眺めるひととき。</h1><p>松本城の近く、丸ノ内の古い町家を開いた時間制のカフェです。湧き水で淹れるコーヒーや抹茶と、お餅・ケーキでゆっくりどうぞ。</p></div>
+ <div class="rating"><b>★4.8</b><span>Googleクチコミ 194件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SmQeNdIFiYK1FBUVylmtAuCkhjfyWhbteIzZ5GGMfIGdyTYQlqxKiyX8GGsQQm7A6hEdT__ZDieM7S99-whhkS0XbCKaPZsv-6axio0f7-OY8TEAKz-TS6vSJqRa_WcPKqONalk5qdH2x5=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>町家に流れる、<br>静かな時間</h2></div><p>明治の頃から残る町家を、そのままの姿でカフェにしました。のれんをくぐると、畳の間と掛け軸、窓の向こうには手入れされた庭が広がります。</p><p>1時間550円・ドリンク1杯付きの時間制。おしゃべりを楽しむのも、庭を眺めて一人で休むのも自由です。建物や松本のことを聞きたい方は、お気軽にお声がけください。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>茶nomaの楽しみ方</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QuA5P9SPaKiFcfexWIhuXWTSQEU6Z-me1AgfYtS8iHRYTWlh9sHzYn_lT2yJ4091iOMc2e8G5mu_JxlSMQyV8_yLbG0FcbV7hV2CUGyt6f9RI8wnt6xbAiDudyZcxualubG6y1DaTOZnvn=w1600" alt="お餅と甘いもの"></div><div class="num">01</div><h3>お餅と甘いもの</h3><p>抹茶や黒ごまのお餅、チーズケーキなど、老舗の和菓子とケーキをご用意。飲み物とよく合います。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QGJ3ZrhggdK5C8xeGeTxUtTbyqSH-rN_IQ9bSJg-WLaKPodFvmf2a4KAq4A0LE3W5Y_6aFpsioefjN-CA0VAnc9kea6tU2G_KL732JGQNZ4WpXAiMCaks7NqClfsyD9rNx3wrPaaSb7Gyh=w1600" alt="町家の庭園"></div><div class="num">02</div><h3>町家の庭園</h3><p>縁側から眺める四季の庭。春は花、秋は紅葉。季節ごとに違う景色を楽しめます。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SHdvYh_3FpoxNH4tlcDeH-e6IaZsjiDeW8phmZPOoL7IG_8_VlTluZx2idfTstAamdSFUw0J97ZtYIsJxbUu1Y-DTEQk3vguLR9P1Wo_xK5jAmAZCgA3Gnd-h_FBk-_YcNeocUZ25JYbiM=w1600" alt="和と洋のお部屋"></div><div class="num">03</div><h3>和と洋のお部屋</h3><p>畳の和室に加えて、赤いソファのヨーロピアンなお部屋も。気分に合わせて席を選べます。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9QTKLtcBf0y39g5UHoSq4th390ID1OsxN5XhS0c6tZNoTp1UCEV9AsKRLC5MtlepVFu4f8wpPGubLFtk7-kxz4ODIA7kE0NKVBdNr1xsITxM7RLnL5bXEn73FS2OVR-nKdi7Bwqcf8ow=w1600" alt=""><div><div class="en">Garden</div><h2>縁側から、季節の庭を。</h2><p>湧き水で淹れたコーヒーや抹茶を片手に、庭の緑をぼんやり眺める。松本散策の途中に、ひと息つける場所です。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>町家と庭の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QHUf2W5uxMYIndbbosPw1DGkb2WzqlWEhd81y15xZ8jD2F0-kRXkPYwxfO5jJpXdr46G-Lv7jxZVkPGOHQSOgjlrgWhxWAwvs3Vv4MXA4Kk9JiIPEw6ayQSHN0KJp6chstcsoDpXPLlbno=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYu4xje5iL07N3pm7mjy0OBy8TkLBgPmE2iWvuxn2Oc1fOIyrA8utpbzk9jhKYHWwZAXBGio2PJJvI9Kd8EyxevpnBpc9x0opv4VKMDRd0vkPjZVjaRhBK1B_QDVXzW6okBOq1dn3934hU=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SDyu67vDnvLcAh3CT940pixNcYFBDOMflVaUlPo7Gz9is6GB2YEWEOFiuBdCEGkBxj9nfzbmANjMX-OOVKy4Qo7HFh5Nv6csRqgdfb3LQO5V5Q4U_5G5FE8yGnifMlaejCVc52Xo-LD9M=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T-b8zgsa4YiKD8C_eOL83zDnHg9kG-orflqeR7WF-I9PnaBHGvij6uGDMdIEKyVddT7BKbuNGZkbBhVr7t5JlptnBC1rVCXNAzkZxvgW50G4aTF1ovjx3cANQX1m6CBrQEo7H25WcWvCE=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QE56akq6p_7zBy_SrRxLbXHe_54d4ajoOzNsw4Aa6YHVzeitdeQKyU_avzLSoGchrc-k0frgFIS59Gnv38WoKADnQDbHFrrFtfS4mpmsgxI_3ufj3yjKaIRguvH11rZm4lt31LRpaoFNht=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>築120年の町家と静かな庭で、特別な時間を過ごせました。建物の歴史を親しみやすく話してくれるのも楽しかったです。</div><div class="v"><div class="star">★★★★★</div>湧き水で淹れたコーヒーと抹茶、お餅がおいしい。実家にいるような落ち着きでゆっくり休めました。</div><div class="v"><div class="star">★★★★★</div>のれんや掛け軸など、町家のしつらえが素敵。エスプレッソと和菓子の組み合わせもよく合いました。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SqooAxWpfUmgCbjvTUwBVexZ_8069TvQGIqd52cLcb1Cd_zOSDZGrWWGkqTENLoTiniG_vpp-MPRhaqPwvvb7dqd55vnrG5VXnykfXXDKSlaoTsA_0V2nq5Fg9Pa0S2HIZIk6_fkNw73k6=w1600" alt=""></div><table><tr><th>店名</th><td>茶noma（ちゃのま）</td></tr><tr><th>住所</th><td>長野県松本市丸ノ内1-14</td></tr><tr><th>料金</th><td>1時間 550円（ドリンク1杯付き）</td></tr><tr><th>営業時間</th><td>〜18:00（詳しくはInstagramをご確認ください）</td></tr><tr><th>サービス</th><td>イートイン・テイクアウト</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※営業日・時間は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/chanoma_matsumoto/">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=%E8%8C%B6noma%20%E6%9D%BE%E6%9C%AC%E5%B8%82%E4%B8%B8%E3%83%8E%E5%86%851-14&output=embed"></iframe></div></section>
+<footer><div class="logo">茶noma</div>〒390-0873 長野県松本市丸ノ内1-14<br>© 茶noma</footer>
+</body></html>
