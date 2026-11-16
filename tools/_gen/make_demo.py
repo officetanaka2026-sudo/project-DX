@@ -12,7 +12,7 @@ slots = json.dumps(c.get('slots', []), ensure_ascii=False)
 step2_title = c.get('step2', '写真を送る（スマホでその場で撮影OK）' if mode == 'photo' else 'ご希望の日時を選ぶ')
 if mode == 'photo':
     step2 = f'<label class="drop">📷 ここを押して写真を選ぶ（3枚まで）<input id="ph" type="file" accept="image/*" multiple hidden></label><div class="thumbs" id="th"></div>'
-    o3label = '写真'
+    o3label = c.get('o3','写真')
 else:
     step2 = '<div class="f"><div><label>ご希望日</label><input id="d2" type="date"></div><div><label>&nbsp;</label><div class="note">空いている時間だけ表示されます（見本）</div></div></div><div class="slots" id="sl"></div>'
     o3label = '希望日時'
