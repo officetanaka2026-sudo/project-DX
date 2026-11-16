@@ -10,9 +10,9 @@ v=c.get('vars',{})
 root=':root{--sea:%s;--sand:%s;--ink:%s;--sub:%s;--accent:%s;--line:%s}'%(v.get('sea','#2f6b85'),v.get('sand','#f7f2ea'),v.get('ink','#2d2a26'),v.get('sub','#6d675f'),v.get('accent','#b8734a'),v.get('line','#e6ddd0'))
 css=css.split('\n',1)[1] if css.startswith('\n') else css
 import re
-css=re.sub(r':root\{[^}]*\}',root,css,1)
+css=re.sub(r':root\{[^}]*\}',root,css,count=1)
 extra=c.get('css','')
-P=c['photos']
+P={k:(v if v.startswith('http') else 'https://lh3.googleusercontent.com/gps-cs-s/'+v) for k,v in c['photos'].items()}
 def img(k,alt=''):
     return f'<img src="{P[k]}=w1600" alt="{E(alt)}">'
 nav=''.join(f'<a href="#{h}">{E(t)}</a>' for h,t in [('about','お店について'),('menu',c.get('menu_label','こだわり')),('gallery','ギャラリー'),('info','営業案内')])
