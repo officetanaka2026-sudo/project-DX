@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>AOAKUA｜鳥取・白兎海岸の海が見えるマラサダカフェ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#1f5f78;--sand:#f3f8f9;--ink:#1c2a30;--sub:#5a6d74;--accent:#2aa3c4;--line:#d7e7ec}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide div{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+
+.hero p{max-width:min(640px,62vw);line-height:1.9;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+@media(max-width:700px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.7) 100%)}.hero p{max-width:none}}
+@media(max-width:700px){.hero h1{font-size:26px;letter-spacing:.02em}}
+</style></head><body>
+<header><div class="logo">AOAKUA<small>アオアクア｜鳥取市 白兎</small></div><nav><a href="#about">お店について</a><a href="#menu">おすすめ</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLfl6XSTuzNWMWAFVD9g1AwJIMuFYvwIS6_H2vUUW4QtvM14OsLi7AeQRDgtFxgTr-k2kbhjbp6hLBNSW-Si5hQnxavWqdCfmXnhIxTNU8IYORHA8fQVP2ebViJSfAI4tW8kwbU5LFTe_A0=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>海を眺めながら、<br>ふわもちマラサダを。</h1><p>白兎神社の近く、日本海が見えるハワイアンテイストのカフェです。名物のマラサダドーナツとAOAKUAドリップ、色あざやかなドリンクを、大きな窓の席でどうぞ。</p></div>
+ <div class="rating"><b>★4.6</b><span>Googleクチコミ 68件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QterGmGCuMYoXIhD2wapWZmsgVPrB0muXVp04yQ7LQ6WaW16_pflYcB0sycPbbtaqu4692b3-yQUyYHEa05Svo88ZXmgImt2Y41biqthIIXWKFsOKE0Vn0V-Gv9gXCe6XZ7_ye2VmRz5Y=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>AOAKUAは、<br>ハワイの言葉で「虹」。</h2></div><p>白兎海岸沿い、道の駅のすぐ近くにあるカフェです。大きなガラス窓の向こうに日本海が広がる、開放的な空間でお過ごしいただけます。</p><p>名物はハワイの伝統スイーツ「マラサダ」。もっちもちでふわふわの食感が自慢です。テイクアウト・お取り置きはLINEから承っています。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>AOAKUAのおすすめ</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9_QSUqkV4IbMHEGB8PMx3tRwpu9cWZsicPUT1V-mhk8c18OKKp6n8i-QLcWpCM-7i2ZKdfq9IMOVfAj9coOfJUfMcE8BSUJJAj746iOLDp_7M5roR8kQ8V4r25-38x0ij_uNinPyPvZVs=w1600" alt="マラサダドーナツ"></div><div class="num">01</div><h3>マラサダドーナツ</h3><p>もっちもち、ふわふわ。揚げたての食感が自慢の名物です。店内限定のフレーバーもあります。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SBOyW7rne8wwIelptDv_4lpZuAxp7iiBYzEttaSkSgAYijcduyAt-QUzjrdDVHWOK9KFP1AWUvogJQK5-oMjgh_VX6beViFYSNQAi0VGbr2Gwkc8caV-LuyMm_MN5-YsxKTb7cvPtp3hI=w1600" alt="ブルーソーダ"></div><div class="num">02</div><h3>ブルーソーダ</h3><p>海の色のようなソーダにアイスをのせて。窓の外の景色と一緒にどうぞ。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TsX1PP2imozM5P1miOs5lHaoyRI-NUcKdH6-4kFycDIfAUj5Y5BtPuSGvrlHTa37tx2fpfl8Q8oyxcBkBKPLLN74tG_PaZuS6SKNtJaZzSs6uT14CZWiOWwOKsTVLB3gEqilvz46ezgsia=w1600" alt="ホットドッグ"></div><div class="num">03</div><h3>ホットドッグ</h3><p>軽食にぴったりのホットドッグ。ドリンクとセットでランチにも。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RMB1NFF3BBABKB7siwikTAzSUs5ZmltGROxKn8s17E7EnZwyGixHk0ulQHM3CjVB_tP2ybqF4cN7R9hETgyq0eOWON6meDChpelps_w4sj-VkyJ50VSUzn6Z2G0q4-UcOJuy2m4n0kU7nI=w1600" alt=""><div><div class="en">Ocean View</div><h2>窓いっぱいの、日本海。</h2><p>白兎海岸を目の前に、ドリップコーヒーとマラサダでゆっくりと。ドライブの途中にもぜひお立ち寄りください。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>メニューとお店の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QVPPnQNtl0hV8GHJO35eLOYRU7ZV5AY1TzJzSSEI4EbetBmWytkvNhtAdWlp5QWg0N2VGPTsRwRfwTmJtXLRhi0j6YI3XieMg98PhtWGm33MyDXIg4X5A7tBBxuqFp1o_IvPe8jlzOBjMj=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TiVLddumS1Y6T6LGNeVF6FnN99QHv1j4giuivTa2ToHPRpdTJcvKfqSzXkxTeNIiMYSAlHVE6GxfMfxhHmL9JPhG3ilZfFev3hMMVQmiIsIAT4QiC3ZMR8ZHuDJrMV1NjnLBVL_EKZ_1c=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TDs6tOT4Q6SaeuElRAy5-VoALLFIF-63Frs-hgFzt7Fp20TbgJV81MFTgv01xKnVap0d5g9Vy3tv9Ykw0yfGvxOVwwmaWBa5CUO_GnbdBSQEZXNFkq8P2F30zFk-j3SquZ75yvsxrtaJXB=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ru4H5Eo49Nl9z9xXZZwmuZ4nGyJabCzuNJLrvlfaOlPW0TT_SKk4OFH73lAIh0pxAIgfBT9WXVTNXfRy5jSsYs-oR7pGpBPvTQjSLgrkb_1uj3JmltjoQBE-xnC0ugpclX4M57=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QrqxtDGEcYED1NPPwhkwiRZ5hdiibURzpq84zvaZbVJBjciPiqTlowZXRaCkFpSuKbOA88LiSgGpy1Adi3MtndxJX_haE3ciFBeUvRAOTkO8nJPVsaAmEnSc4qYpmTNbu1s4jL=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>白兎海岸が見える道の駅の近くのお店。もっちもちでふわふわの独特なマラサダドーナツがおいしくて、店内でしか食べられないドーナツもあります。</div><div class="v"><div class="star">★★★★★</div>日本海が見えるハワイアンテイストの素敵なカフェ。大きなガラス窓の席から海を眺めながら過ごせる開放的な空間です。</div><div class="v"><div class="star">★★★★★</div>店の中から海が見えてとてもきれいでした。入った瞬間、店員さんの笑顔で出迎えられ、素晴らしいお店だなと思いました。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Txw95r3up2H1hfXP4KrezCcN1mQtIYaxkvj_IT_EbjfZFfoV8yCJoBDZtbrUHv1RyyyIs0lu8URq-lHWqkRrJei0zr6mLnjbR_y_EAo9oVIcoHD9A5fpxA-VmN0RHYOlHxlxbljTp6kCel=w1600" alt=""></div><table><tr><th>店名</th><td>AOAKUA（アオアクア）</td></tr><tr><th>住所</th><td>鳥取県鳥取市白兎688-3</td></tr><tr><th>電話</th><td>070-9123-8910</td></tr><tr><th>営業時間</th><td>9:30〜17:00</td></tr><tr><th>定休日</th><td>木曜日</td></tr><tr><th>ご利用</th><td>イートイン・テイクアウト（取り置きはLINEから）</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※営業時間・定休日は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/aoakua__ttr/">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=AOAKUA%20%E9%B3%A5%E5%8F%96%E5%B8%82%E7%99%BD%E5%85%8E688-3&output=embed"></iframe></div></section>
+<footer><div class="logo">AOAKUA</div>〒689-0206 鳥取県鳥取市白兎688-3<br>© AOAKUA</footer>
+</body></html>
