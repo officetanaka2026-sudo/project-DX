@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>gyogyo（ぎょぎょ）｜函館・柳町の刺身と海鮮のお店</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#1f3d5a;--sand:#f3f5f6;--ink:#1d2329;--sub:#5d6670;--accent:#c8452f;--line:#dfe4e8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide div{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+
+.hero p{max-width:min(640px,62vw);line-height:1.9;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+@media(max-width:700px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.7) 100%)}.hero p{max-width:none}}
+@media(max-width:700px){.hero h1{font-size:26px;letter-spacing:.02em}}
+</style></head><body>
+<header><div class="logo">gyogyo<small>ぎょぎょ｜函館 柳町</small></div><nav><a href="#about">お店について</a><a href="#menu">おすすめ</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SNVLDC26weMdfYf6yF3oJsS77ROJlxUC_MgcPoUk2jBpI0b0DwrBQIzsHbjAMeD1t8ciYpBXXbc-wlmvjoM3EDmQP3XBvHwVArl_kjY5DF2dlXkAyxw8dfDMPZvcU2WkTF5P3Z8G1w-uOP=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>函館の朝獲れを、<br>刺身と海鮮丼で。</h1><p>函館・柳町の海鮮のお店。朝獲れの刺身定食、いくら入りの海鮮丼、活イカ刺しまで。ランチもディナーも気軽にどうぞ。</p></div>
+ <div class="rating"><b>★4.4</b><span>Googleクチコミ 413件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TPLLoXXYmGi_SsVTZiJ-CepDulTZxzcUBQ3oCVtJkyv-fqvO1GH7w3bqTZYlSvSlpfBHWutT4fBq1R631I5DKRbeXfkbmWKWysYeKrAJ43tenJ0NoT7i6iecvnRAnq44f2d_vqEtHLbGL9=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>新鮮な魚を、<br>気軽な定食で。</h2></div><p>函館市柳町、黒い外観とのれんが目印のお店です。その日に揚がった新鮮な魚を、刺身定食や海鮮丼でお出ししています。</p><p>店内はカウンター席・テーブル席・お座敷があり、おひとりでもご家族でも。量を控えめにしたレディース定食もご用意しています。駐車場もあるので、お車でもお越しいただけます。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>gyogyoのおすすめ</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SMi5sYG2-wTMm5Mz89E6tXM-lSmOfQpr-oJjogx43mxyE9RXaDEyo--dBvAPerh7WZCaY8i-QA804ENqOk0xB_QgZZtdnBcnn_WZ_KEZByZ3ikWHkRfnMRKXLcxB_o4WPshsAPvGewxe_C=w1600" alt="朝獲れ刺身定食"></div><div class="num">01</div><h3>朝獲れ刺身定食</h3><p>その日の朝に獲れた魚を盛り合わせた、いちばん人気の定食。ご飯・みそ汁つきです。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R-33eja99jZt8yBEOkBNARc19u_yjeyCEwOWVWAVLC90_9ipiWyLTsXOeuE9Iucmv-grhWG9ia2HCgw4EiE59rtirk3adOZvkSgRsnm7SrtDtAjMq1dWIzSxpBxXqpryEuSVCSyEsTaCkR=w1600" alt="特製いくら入り海鮮丼"></div><div class="num">02</div><h3>特製いくら入り海鮮丼</h3><p>いくらと季節の刺身をたっぷりのせた、函館らしい海鮮丼。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9StfVNOfdFmm5PP3AQoDx5GdQhQDAAW_HNBchdADRjU_45bw0b6iiVXfTXnIyyOQ6V7FWkqXKkJ_pM-MOBmxBvMLLuQ_v8RMtLCTaaSYMSFkVQeNIjt-OzGWnH7y9wcuHN8LfYz-c2xjpku=w1600" alt="活イカ刺し"></div><div class="num">03</div><h3>活イカ刺し</h3><p>函館に来たらぜひ。透きとおる身のコリコリ食感は、活イカならではです。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QPDLB_u9t62pQYX7j3aR_2alYa-kxKWs3D35D_g-5I_Zbhf9y8zV1u5raosjPT3V8vbayLww9PrYCzBaZ5B_DUe6BCDNJdWx-z6-CRefTkXG9t9TfbPD1U_0oSv4dMX9lUkDWUAO1MlLzY=w1600" alt=""><div><div class="en">Counter</div><h2>カウンターでも、お座敷でも。</h2><p>清潔で明るい店内に、カウンター・テーブル・お座敷。お席にはコンセントもあり、旅の途中でもゆっくりできます。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>料理と店内の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TGFGsuIEfGvwLcxm6EhkAbldzooQIRfAipX6YmEXIUDhZtfdcD034wUy63lXnGE6sRDBzLiRxcfpo6Kj2wwzYT0wwsT_leJ1F2R1XAhz_ww-IDsM2C8nwLHmI8zetjjMT85csZDi3AZwRb=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R64MI10NvhJviPfTmEbEiWnAPZcZtJzrgQ5g-UCfs5-_IIu9_m8vvT7LTa6BvBBSAWx1oTbLMwCCXEdkgekGaG5vuNYUeUdY8uxBWWsK3fVxWdjJVJ9MxAnQvQ2uAYK3Ux7Sco=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RvfUY2hpGqnpHotMt9AW4KRpNDpxMVHQ3ngSiWbdjvxjEvk6sQkbXHH_GGDAlEcu1tNoLrZmQPoCSJic69HFPolWvS0cOF0O7b9v9V5nw8e5Jpl5oYcwH05GUyS1UEfQkwtXKGT9rxqzw=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SAmvh0_sGJD3aBuogqgHNh_uZK1dmrL71AbXQIEYmh_Q2d2kzwV9NCvW7wJN7lc-WZki0aQra4OXC0twrNH3Xo7bDyQpiX1Iysx5frojJGmt_HCrRpj7ZPrrU23OY8m1MyNxARwebyARAy=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tq9fEErw-DeNEBjzOj-JVbiEnmgKjdMK4podIbaMDdV11PRl4-8eHzPzIKFmdL3tvIeeJWm7QwmSL2AJlajcaMDK3051v7PRHzzYXf5r_2HzHAh0ylui-gphGqm1UmYqYepqTWEIEHWdbX=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>函館で美味しい海鮮を、と探して訪問。朝獲れ刺身定食も活イカ刺しも新鮮で、とくにイカが絶品。お値段もリーズナブルでした。</div><div class="v"><div class="star">★★★★★</div>店内はカウンター・テーブル・お座敷があり、とても清潔。席にコンセントがあり、水や温かいお茶の気配りもうれしいです。</div><div class="v"><div class="star">★★★★★</div>レディース定食は刺身が少なめで、ご飯の量も選べるのがありがたい。駅前から少し離れているので車がおすすめです。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qz54ktAgqlWs2J7Ql21R7lHaL5nJYNX8o_oaqYxPxLOgOn3YI_o36ZdxF-AkEXrdx4i1BZLLdnlSx3PSEwzuqAhaaNJboPrJehSC1ff1sVcUi4ax-oP0t8zGOaJuzB8TXqqP5gRYdN7UQ=w1600" alt=""></div><table><tr><th>店名</th><td>gyogyo（ぎょぎょ）</td></tr><tr><th>住所</th><td>北海道函館市柳町14-20</td></tr><tr><th>電話</th><td>080-1410-0793</td></tr><tr><th>ランチ</th><td>11:00〜13:30（月曜を除く）</td></tr><tr><th>ディナー</th><td>17:00〜22:00（火曜を除く）</td></tr><tr><th>ご利用</th><td>イートイン・駐車場あり</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※営業時間・定休日は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/gyogyo_sashimi.hakodate/">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=gyogyo%20%E5%87%BD%E9%A4%A8%E5%B8%82%E6%9F%B3%E7%94%BA14-20&output=embed"></iframe></div></section>
+<footer><div class="logo">gyogyo</div>〒040-0002 北海道函館市柳町14-20<br>© gyogyo（ぎょぎょ）</footer>
+</body></html>
