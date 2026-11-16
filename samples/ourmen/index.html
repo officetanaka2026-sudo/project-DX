@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Our麺｜徳島・新町橋のベジポタつけ麺と自家製餃子</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#3a2a1c;--sand:#f7f1e8;--ink:#2a2018;--sub:#6b5c4e;--accent:#c0612b;--line:#e6d9c8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide div{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+
+.hero p{max-width:min(640px,62vw);line-height:1.9;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+@media(max-width:700px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.7) 100%)}.hero p{max-width:none}}
+@media(max-width:700px){.hero h1{font-size:26px;letter-spacing:.02em}}
+</style></head><body>
+<header><div class="logo">Our麺<small>OUR MEN｜徳島 新町橋</small></div><nav><a href="#about">お店について</a><a href="#menu">おすすめ</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qf0c01q_E16AR1NEP8Lgw6GqeyKqylEua5coagJ2raWjLj6gw_XBXtAJ_v4KazgVZ7OZSv68xPu4zoPYrdEhvzaaphPEGm2El9yHJM_V7yyRKPfbz_nNu597LpdZxhoCemtdlr=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>濃厚なのに、<br>飲み干せるベジポタ。</h1><p>徳島駅から歩いてすぐ、新町橋のラーメン屋です。野菜のうま味たっぷりのベジポタ系つけ麺とらぁ麺、そしてお店で包む自家製餃子をどうぞ。</p></div>
+ <div class="rating"><b>★4.3</b><span>Googleクチコミ 223件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QRXDUPEZeK0MMmzK1vF8FFqN1yH57jmtHX4-juEWztzx_9MHw7yxdSmSe5P3F6EY4P10LZEnuIPRx2IGEOvu42sGGfo67hJK7dakNaGbop4JdHz-TvIACReHfwLHmxyYPUPlO_fEB1NeRo=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>徳島駅・商店街から<br>歩いてすぐ。</h2></div><p>新町橋のさくらまビル1階にあるラーメン屋です。食券を買っていただき、お席へご案内するスタイル。おひとりさまでも気軽にお立ち寄りください。</p><p>スープは野菜をたっぷり使ったベジポタ系。濃厚なのに飲みやすく、つけ麺・らぁ麺どちらでもお楽しみいただけます。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>Our麺のおすすめ</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T5hteZ4kf16pzvOf-X4PyfqLqUlgFmnnq257QplDJoHp3LecZqWuRwXEjOw0hrRY6_JmNSKS_1nEJVq1LOQ83favX5I2xDKa4w1jgwJiAVfW6UZnzE3mOtjGffdEWjtKyUYGDuBQcuzzMt=w1600" alt="特製つけ麺"></div><div class="num">01</div><h3>特製つけ麺</h3><p>もちもちの太麺を、濃厚なベジポタのつけ汁で。すだちを搾って味の変化もどうぞ。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RL72u97okKSrH4oQ8hAdbOTLMIPceCaztD43YxaCFh6OJTfqnH4oyB5IJHwwsbgFDGIzh-Stwrzii7i_sSON0oU1Se9dENdEnPVyi5YonTQDWVK6dWdD3SYNXfw4uUjpDFCI0U=w1600" alt="らぁ麺"></div><div class="num">02</div><h3>らぁ麺</h3><p>濃厚なのに後味はやさしいベジポタスープ。チャーシューと味玉ものせて。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9St1MLOKGDbdVG9ZDk4xE8YTxwL4PF6XvdNwxYGyDAhqV7_mrU6epS-aiyUWI-FpFU0aeLxPBybLgKfzEzkgRul8vFIonX0j7p6Hcw4fRM6Qqkias3Xjmmj9qJ6hNs9FdAdrv1O9R8UvcQ=w1600" alt="自家製Our餃子"></div><div class="num">03</div><h3>自家製Our餃子</h3><p>お店で包む自家製の餃子。麺とあわせて注文される方が多い一品です。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TEOTKO7Ozz-x4Ib6-YBLVOP8wopRBfdiRJN8mOGDthYIdUIBdOWus5HYIBSFCkuqHRe1-4ViPVKecZtplvk8gIb98K2OH6UVsOgIuta-MNitFAUHjuaL9m8matuECXF0ttPQTNb4aEP2E=w1600" alt=""><div><div class="en">Vege-Pota</div><h2>野菜のうま味を、一杯に。</h2><p>野菜をじっくり炊いたポタージュのようなスープ。濃厚なのに、つい飲み干してしまう一杯です。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>メニューとお店の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9So5V2gxH3ogOKYnYBB5S4OgbRCjizDQczyd35CoS_EZyZfmYJs5gLGygtwG3olhAw766undPIwgIghUBio2BWi90EW7tXIcvHjo9lnUpDgL3CG_9sHd0uvaB_fbZ_2y2j4KrTz_Q=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SImwEvMbIi4bRlyLh2KzUUtARQkTKmXDr5w93UUz_OlJ1ePnKtuXP4g0UXXz_4ZCY8rh_Nu_uBNZgCbacLHxKREySHCCz7BBuBUsNn1Kfe2CuEiQAk7AVJDOUJiVUq5rdJFMadNyiFkhuH=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T8Mf-1Bv0ULIpwknL4B1BO5ILQHW7RrhXjaWeSNmUvWwBQDw8uDzbsf3cQmLTdi11GjUI9tHgyWVUC-ChFPHs3wnow9XbbOCrOq8ws47NkhtBI1SKbC8XNf-jg6XJ66XgGXJppKbraz-Nf=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQhVGKl07e1eEf_Sx9OBopxGFiednNG1pjAg81yN1pB5HaFjwRb9izp6vttO1kcOnsmE4KFr84yUUYvdWUUliciMIT6qfm53mDueELGjMEraL6eEjBMiywONW-mhdPAFuQr88DVFfQ1To=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TGmLBSq_fKvghrqBURueNWfAqt3ThIDVZcr-fYhY44_09hyxUx0le9iZc0Zo61U1ush4EGgL0e1mxNjNvqbwX3VYt4T2LapIe4i90agMurnh-kHDcapd7TZOMgi0Y5aLmBth4RoLPbBWI=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>徳島駅近くに用事があった際に検索して来店。食券を買って席へ案内されるスタイルで、ゆっくりメニューを選べました。</div><div class="v"><div class="star">★★★★★</div>徳島駅・商店街周辺でおいしい麺類を探して伺いました。お目当ての特製つけ麺、大正解でした！</div><div class="v"><div class="star">★★★★★</div>出張の際に訪問。ベジポタ系のスープは濃厚ですが飲みやすく、刻みニンニクを入れると風味が変わってスープが進みました。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QzaDLILBYyUkR1t-K1gICU72YenTp1pbVBKhIpvKQv_g3QAKSn4f-iq63hmTMTfv_YSCjbMyNx5QV7eqoXy6nxabMG2kt9TYrs7ZUCNsYnR29cfB71MRRqvjEcXqSNH-U4JNHQuA=w1600" alt=""></div><table><tr><th>店名</th><td>Our麺</td></tr><tr><th>住所</th><td>徳島県徳島市新町橋1丁目7 さくらまビル1階</td></tr><tr><th>電話</th><td>070-4156-1886</td></tr><tr><th>営業時間</th><td>月・火・木・金 11:00〜16:00／土・日 11:00〜17:00</td></tr><tr><th>定休日</th><td>水曜日</td></tr><tr><th>ご利用</th><td>イートイン（食券制）</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※営業時間・定休日は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/our20220420/">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=Our%E9%BA%BA%20%E5%BE%B3%E5%B3%B6%E5%B8%82%E6%96%B0%E7%94%BA%E6%A9%8B1%E4%B8%81%E7%9B%AE7&output=embed"></iframe></div></section>
+<footer><div class="logo">Our麺</div>〒770-0904 徳島県徳島市新町橋1丁目7 さくらまビル1階<br>© Our麺</footer>
+</body></html>
