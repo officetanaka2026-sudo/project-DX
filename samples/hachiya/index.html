@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>HACHIYA cafe｜鳥取・晩稲のはちみつカフェ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#4a3a1a;--sand:#fdf8ec;--ink:#2e2616;--sub:#73674e;--accent:#e0a21b;--line:#efe3c4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide div{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+
+.hero p{max-width:min(640px,62vw);line-height:1.9;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+@media(max-width:700px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.7) 100%)}.hero p{max-width:none}}
+@media(max-width:700px){.hero h1{font-size:26px;letter-spacing:.02em}}
+</style></head><body>
+<header><div class="logo">HACHIYA cafe<small>ハチヤカフェ｜鳥取市 晩稲</small></div><nav><a href="#about">お店について</a><a href="#menu">おすすめ</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SfOi0NLZqfqRjPxsEU1to0F-oMVjjm6p5xmyPk4bsPYvAZJsM4IfveDRtMQ-5CamQ3_n0xlwgDhwjfT63J651I3hDYvjbRzxI-roMKTQtExmxyTgUi2lVB-tm-ROejO4t4V0JK8g=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>はちみつと、<br>ハニートーストのカフェ。</h1><p>鳥取市晩稲にある、はちみつを楽しめるカフェです。厚切りのハニートーストやサンドイッチ、ブランチプレートを、子ども連れでもゆっくりお過ごしいただける空間でどうぞ。</p></div>
+ <div class="rating"><b>★4.6</b><span>Googleクチコミ 272件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R_GHvoeC4czEe1OSzLUKkeSSKdWtHQiYdfCTqChhcgT_BYLXWUI6MVH1rT8kdFKJSPC_kJocPDTCu_OsuAamHjEmVuVl71UC_IqvUDh3JotVDdhxQkoRSYtdCPNygx5Os1UplZubxyTHuQ=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>虹の階段をあがった、<br>2階のカフェ。</h2></div><p>建物の2階、虹色の階段をのぼった先にあるカフェです。木のぬくもりのある落ち着いた店内で、ゆったりとお過ごしいただけます。</p><p>キッズスペースがあり、ご予約いただければ個室もご用意できます。子ども連れのママ・パパにも、団体さまやイベントのご相談にもお気軽にどうぞ。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>HACHIYA cafeのおすすめ</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9REW389jATKP8pivqNUg3Haein1nyk-CC_wZMuNSVyqBOyTSQvVfpHWgaA3vkkWiHFzAxybv93Yg6O6Bt8NwUlX3QNiWoSwGT5P_D_O-J_n0TIQ-fR5ZnWDWEsiPh-5ekWfHCLICZlMP4Yg=w1600" alt="ハニートースト"></div><div class="num">01</div><h3>ハニートースト</h3><p>厚切りのトーストに、たっぷりのはちみつとアイス。お店いちばんの人気メニューです。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QtdMOW_BKpqI20fHn3C0s516OtU5VqzNsUPEwIlouHqZ8Il04NiS5Mecc2DR6C4lTCsfuDImE-CHhJTZXsvmeinuzB9BzLrGNyizT6dL_CEfC4NlE4814qs5kTsMGZhZa7Tss6anDrS8oG=w1600" alt="サンドイッチ"></div><div class="num">02</div><h3>サンドイッチ</h3><p>具だくさんのサンドイッチは、ランチやブランチにぴったりです。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ql2conFjmtMklW7Tilj3wtOXRHRYL_RNsosGFihaUIHRt0frohhhqBNsxdC2r9wfsHBURQICQfPHYfRZkaeLHtmZSoYpUt093TO9gO394S-0F4CUy3GiyLP4MEMXuM8SU6jduD=w1600" alt="ブランチプレート"></div><div class="num">03</div><h3>ブランチプレート</h3><p>彩りのよいオープンサンドとサラダで、休日のブランチをゆっくりと。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZGN-7V___XTYCjvVAU-Z285oBXF9fCWZO72SzSn_L5Q06gJun_6AHmaGkbCkkfEAeo0Lxw0oeb-m7Ub6izTIWpY1nMTz1Z82ssO2l3i_ys42mEVfZOCnOOdga5HjckSi_VlZp7w=w1600" alt=""><div><div class="en">Honey Cafe</div><h2>はちみつを、もっと身近に。</h2><p>いろいろな種類のはちみつを、トーストやドリンクで食べ比べ。お子さまと一緒に楽しめるカフェです。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>メニューとお店の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S9pXIi_nIsKkZeS06Js5bNUfsPZiqufKODkr5vTw5owxkWvB-6l1ew6xPYK4y13-tzVf4wGrw5ozqT5uGXvgkuScWESHZ0fjgldvhsv3-5qJOVUUO-U_VkmFCHHxs9wsBThw0XEHpS0G-c=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R494AQQpesCt4neSx6WgvBFqwt9SJQ2Z8GpcoLgRhpFwKKQe5KVjoeF5GFR2AqsVUM_Cp1jqGd4StCPiwWletV9pPTn8zdD75e43M8XWAfmU-HGEBRaoBlRs3qFxQDr8LVOzFp=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJ71p9MzAlNPsp11gTq62_40CLau9pOjdHdfoAery_QG-9FGuWFK-KSQvNPSdUBqXDWvMWgfglwW0gs6mSSr0AEqEjU3aciiWyjKb2q_CEJqSvypZo-EjCF9L1uh0xkgSFSjZC=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SR_g7JCJNn04NZURTfHGDQ815l-JO12q-utG6rD0o0ulMOjiD0qee0Ix2B8OQjrLXPrNcaYrSlfRoWrP3KVRbhzlmCyBH0kqukvMuJ59yKO3TJAOEWML_oFjKKRC45Ex93Q9yZ_IPeaTML=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TEcXnzzoM00NbZxSFe62dhfSGAhcYzOG6EgNXq4SL4bTHFwJPOh_F1A2kexCNdDhNfroDXA7a-hDSea2tfn2mBOgciP6gIao8upYTxb_t0op8V_hmc2zFJXywKHm-u9Yowalf9hwSLIkHo=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>子連れでも予約すれば個室があるので、気兼ねすることなく過ごせます！とても居心地がよく、リピートしています。</div><div class="v"><div class="star">★★★★★</div>建物の2階にあることが分かって安心しました。入ってみると良い雰囲気のカフェでした。</div><div class="v"><div class="star">★★★★★</div>虹の階段をワクワクしながら上がると、落ち着いた雰囲気のお店。チーズハニーピザ、ブランチプレート、フレンチトーストどれもおいしかったです。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkJRq4tzoMqeatHKfDIDrayblNIgulkYxXAsHMyFJ3YujaTCrLU3koN4S-PQD8GOkvn_6ovnjgOTHaqqLa_nzcFpHRp3nQXVhMLMjMSDP1dDitCQ6zMSjpjgG0iiDeGjUyTnJpDA=w1600" alt=""></div><table><tr><th>店名</th><td>HACHIYA cafe（ハチヤカフェ）</td></tr><tr><th>住所</th><td>鳥取県鳥取市晩稲82-1 2F</td></tr><tr><th>電話</th><td>080-4452-6234</td></tr><tr><th>営業時間</th><td>11:00〜17:00</td></tr><tr><th>定休日</th><td>金曜日</td></tr><tr><th>ご利用</th><td>イートイン・キッズスペース・個室（要予約）</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※営業時間・定休日は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/hachiya_honeytoast/">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=HACHIYA%20cafe%20%E9%B3%A5%E5%8F%96%E5%B8%82%E6%99%A9%E7%A8%B282-1&output=embed"></iframe></div></section>
+<footer><div class="logo">HACHIYA cafe</div>〒680-0904 鳥取県鳥取市晩稲82-1 2F<br>© HACHIYA cafe</footer>
+</body></html>
