@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>coffee CANTATA｜彦根・ネルドリップで淹れる深煎り珈琲の喫茶店</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#3e2f26;--sand:#f7f3ec;--ink:#2a2420;--sub:#6a615a;--accent:#a8743d;--line:#e4dbcf}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide div{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+
+.hero p{max-width:min(640px,62vw);line-height:1.9;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+@media(max-width:700px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.7) 100%)}.hero p{max-width:none}}
+@media(max-width:700px){.hero h1{font-size:26px;letter-spacing:.02em}}
+</style></head><body>
+<header><div class="logo">coffee CANTATA<small>コーヒーカンタータ｜滋賀・彦根</small></div><nav><a href="#about">お店について</a><a href="#menu">メニュー</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLdgEKaa0yvdOtDT1bLhTHE18F4edswwDd4XQRRJvn7OYC8bhW-RzXU8XT8jGAwvBiSvzugta86_wvz1wHLGICscD9gAdbI1CSOnpC45CpR4v07fdVBfhaMn0qLYODmceXjRzcDB=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>ネルで淹れる、<br>深煎りの一杯。</h1><p>彦根で長く親しまれている喫茶店です。深煎りのネルドリップ珈琲と、ポットでお出しする紅茶、焼きたてのスコーンやフレンチトーストでお待ちしています。</p></div>
+ <div class="rating"><b>★4.4</b><span>Googleクチコミ 143件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLfJMAvffUtyDCU_b1nM-v-LhcSzywK41PzM5yF0PVk1z9lw9JppOxCue7ghqcsDVJuOpkfmYZRZ_swkMOk4qLA17oZQITjGkfxyFpFsYEV6wkIhSQclRydO9keCh3cniVImtKlx6w=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>珈琲の香りとジャズ、<br>木のぬくもり。</h2></div><p>広い店内には珈琲の香りが漂い、ジャズが流れています。食器やカトラリーにもこだわり、落ち着いて過ごせる空間です。</p><p>珈琲の種類が多く、好みの一杯を探すのも楽しみのひとつ。朝8時からモーニングもご用意しています。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>カンタータのおすすめ</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLeBSQn331rsqec9OihZeh1ZzYmPO_p7yXCY6iaNLkDmF4SNMcquj9fO3zry4Sg84mSH0KsInY1DsO9gUuX0eTXSjACohFT69qqhJH8KwYwoF8Jg7MCZoz46LVdJbPaiPD8fFQCuCQuxS5t8=w1600" alt="ネルドリップ珈琲"></div><div class="num">01</div><h3>ネルドリップ珈琲</h3><p>豊富な種類からお選びいただける深煎りの珈琲。すっきりとした苦みのアイスコーヒーも。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLctSUj_kPxZusloPcPo-05LY49b21SV8enwX6QDieWMeJCvCeiE7lzZtR3Tg1UR_57hVuFDb_w8Mwd0pr7BHtedWjv2f1utz-JvCD5S7UOj65YB8nYh6l-LTUhnvpDTWFYFXw=w1600" alt="フレンチトースト"></div><div class="num">02</div><h3>フレンチトースト</h3><p>焼き上がりまで20分ほど。ふわっふわの食感が人気です。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLd96fDbf33Zd_cTTLCWXoNz7rCmxpv47bdE5VRui8dcp0vOcKPKDyXN5f0RnKYLcKb8BliPF7c8YbTpHoKN6rg9Vo6ay_koY_RwehfmJnFlPXWJoV4W44Q-yzou_L2R9BUWNYyE8Y4qovhg=w1600" alt="焼きたてスコーン"></div><div class="num">03</div><h3>焼きたてスコーン</h3><p>歯触りのよい焼きたてスコーン。紅茶はポットで、差し湯もご用意しています。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLcP2XuIIZQhPWopq80_sYG_D8IKy1srTp5f8C7q6jaL7Nb6kUAA-K-to4ZXi-ezzHjSB95RQHHTi-wck7cjDVDbFiEBwiqLyQXKmpooRkhTvEgMpwzEQPkN-Np6L0D_gCLAAnMVbA=w1600" alt=""><div><div class="en">Coffee &amp; Tea</div><h2>朝のひとときから、午後の休憩まで。</h2><p>ヴィンテージウバやダージリンなど、紅茶の茶葉も揃えています。店舗前に駐車場があります。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>メニューとお店の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLfV3yjnPzk3IiQw5jGkdo_ufjUPFxmCLxqP8OBpyLsCv12wOAFsqzND4kZdSt7l8KCzYPBJV2dGKZL3gIWbfYcGTO8OL0Kh0El3okGyKi6zi0axvhIcanBDFLLHcQFfaBUGmgJlRQ=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLeY1QaET4e6gDc-5Fz08ocgVdQ8t9qp0aE-Wn1nBsNxAZgPmligQeUhgciWlX34FfjPCxrS2cjThKszZE0DDpcNvBzeTicDgrum_X6GbJPR88IOWJ87gc2ZB5xE3fvvJEkbAso1=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLfjc-cFsRk1bbnxnZY9GNeKqLg0sDunRCGuNWKMJhElmZnkOZCuTgeHlK73RX-b3dFQY0uY3b-Kx8NCcIAu0BZF2A_5xntYwTC3E8WcEP4O76KdZauyRfRAGjyjgb7z0WHBYM8=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLdkRuWgpyztELs5qwQ5VOkj9WqSAiHCe1wcFr_6AmF0RhJAA-zI8Msg99FHRW1f0koDWLm20CkjpAhcCgz-UFJ8edGCFuze9sLgC_N5aBUPJKTAcejDou9rwHeEFQpXJHl36ofNSRf8uKjt=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLdAXL0oAkOJ5ubXAxMrHc9oTrg0UL_RKh75moOzESR69lx6gH15ZS01NNfuQ7rrWiUKgPoQUmp-Tk8c3ayVTIwccNR5ZmUU9A9IKOAx60-qlHfmIvHnxzAwvo25dqLu9cdxwmNPR-ICQmE=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>珈琲の種類が多く、自分の好みのものを探すことが楽しみで何度も訪れています。焼きたてスコーンの歯触りが最高でした。</div><div class="v"><div class="star">★★★★★</div>紅茶はポットでティーカップ3杯分ほど。ミルクや砂糖、差し湯まで無料という至れり尽くせりのサービスです。</div><div class="v"><div class="star">★★★★★</div>店内は想像より広く、珈琲の香りが漂っていて、流れるジャズとともにとても良い雰囲気でした。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLe9oQyXyOKADPqS5AE_GI70BfaC610PzqO2kume7kPPInxTlnpbTlQBKlnYYGWV56YMIyhhF7UXMNS_8u0_QpsypCciXSyGDE9LbKrx-LxcavOFvZ6YB-KGNnL9KHAONysiP8Nq=w1600" alt=""></div><table><tr><th>店名</th><td>coffee CANTATA（コーヒーカンタータ）</td></tr><tr><th>住所</th><td>滋賀県彦根市大薮町2490</td></tr><tr><th>営業時間</th><td>8:00〜18:00</td></tr><tr><th>定休日</th><td>月曜日</td></tr><tr><th>駐車場</th><td>店舗前にあり</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※お席のご予約は承っておりません。営業時間・定休日は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/coffee_cantata">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%BF%20%E5%BD%A6%E6%A0%B9%E5%B8%82&output=embed"></iframe></div></section>
+<footer><div class="logo">coffee CANTATA</div>滋賀県彦根市大薮町2490<br>© coffee CANTATA</footer>
+</body></html>
