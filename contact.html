@@ -4,8 +4,8 @@
 <meta name="description" content="ホームページ制作・業務ツール・AI導入の無料相談はこちら。">
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
-<header><div class="wrap"><a class="logo" href=""><i>DX</i>中小企業DX研究所</a>
-<nav><a href="#service">サービス</a><a href="#price">料金</a><a href="#works">制作例</a><a href="about.html">運営者</a><a class="cta" href="contact.html">無料相談</a></nav></div></header>
+<header><div class="wrap"><a class="logo" href="/"><i>DX</i>中小企業DX研究所</a>
+<nav><a href="/#service">サービス</a><a href="/#price">料金</a><a href="/#works">制作例</a><a href="about.html">運営者</a><a class="cta" href="contact.html">無料相談</a></nav></div></header>
 <div class="page-head"><div class="wrap"><h1>無料相談・お問い合わせ</h1></div></div><section><div class="wrap">
 <p class="lead">内容を確認し、2営業日以内にご返信します。ご相談・お見積りは無料です。</p>
 <div class="article"><form id="f">
@@ -24,6 +24,6 @@ document.getElementById('f').addEventListener('submit',async e=>{e.preventDefaul
 try{const r=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f)))});const j=await r.json();
 if(j.ok){f.reset();m.textContent='送信しました。2営業日以内にご返信します。';}else{m.textContent=j.error||'送信に失敗しました。';b.disabled=false;}}catch(_){m.textContent='送信に失敗しました。時間をおいて再度お試しください。';b.disabled=false;}});
 </script></div></div></section><footer><div class="wrap">
-<p><a href="">トップ</a><a href="tools/mitsumori/">ツール見本</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></p>
+<p><a href="/">トップ</a><a href="/blog/">お役立ち記事</a><a href="tools/mitsumori/">ツール見本</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></p>
 <p>© 中小企業DX研究所</p></div></footer>
 </body></html>
