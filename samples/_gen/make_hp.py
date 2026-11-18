@@ -19,7 +19,7 @@ nav=''.join(f'<a href="#{h}">{E(t)}</a>' for h,t in [('about','お店につい�
 pts=''.join(f'<div><div class="photo">{img(p["photo"],p["title"])}</div><div class="num">0{i+1}</div><h3>{E(p["title"])}</h3><p>{E(p["text"])}</p></div>' for i,p in enumerate(c['points']))
 gal=''.join(f'<div class="{cl}">{img(k)}</div>' for cl,k in zip(['t','w','','','w'],c['gallery']))
 voi=''.join(f'<div class="v"><div class="star">★★★★★</div>{E(t)}</div>' for t in c['voices'])
-rows=''.join(f'<tr><th>{E(k)}</th><td>{E(vv)}</td></tr>' for k,vv in c['info'])
+rows=''.join(f'<tr><th>{E(k)}</th><td>{E(vv).replace("&lt;br&gt;","<br>")}</td></tr>' for k,vv in c['info'])
 btn=f'<a class="btn" href="{E(c["link"])}">{E(c.get("link_label","Instagram"))}</a>' if c.get('link') else ''
 mapq=up.quote(c['map_q'])
 fonts=c.get('fonts','family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500')
