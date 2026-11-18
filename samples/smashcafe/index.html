@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>SMASH CAFE｜姫路・綿町の、メルボルンをイメージしたカフェ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>:root{--sea:#151515;--sand:#f4f2ee;--ink:#161616;--sub:#5f5d58;--accent:#c49a52;--line:#e2ded6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink);background:var(--sand);line-height:2;letter-spacing:.04em}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.min{font-family:"Shippori Mincho",serif}.en{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--accent);font-size:20px;letter-spacing:.08em}
+header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:26px 6vw;color:#fff}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;letter-spacing:.12em}.logo small{display:block;font-family:"Zen Kaku Gothic New";font-size:11px;letter-spacing:.3em;margin-top:-8px}
+header nav a{color:#fff;text-decoration:none;margin-left:30px;font-size:14px;letter-spacing:.15em}
+.hero{position:relative;height:100vh;min-height:620px;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 100%)}
+.hero-copy{position:absolute;left:6vw;bottom:12vh;z-index:2}
+.hero h1{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(32px,4.6vw,62px);line-height:1.55;margin:0 0 18px;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hero p{margin:0;font-size:clamp(14px,1.3vw,17px);letter-spacing:.12em}
+.rating{position:absolute;right:6vw;bottom:12vh;z-index:2;background:rgba(255,255,255,.94);color:var(--ink);border-radius:14px;padding:16px 22px;text-align:center;line-height:1.5}
+.rating b{font-size:30px;color:var(--accent)}.rating span{display:block;font-size:12px;color:var(--sub)}
+section{padding:120px 6vw}
+.head{margin-bottom:50px}.head h2{font-family:"Shippori Mincho",serif;font-weight:500;font-size:clamp(26px,2.6vw,36px);margin:4px 0 0;line-height:1.6}
+.intro{display:grid;grid-template-columns:1.1fr 1fr;gap:7vw;align-items:center}
+.intro .photo{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.intro p{color:var(--sub)}
+.points{background:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.pgrid .photo{aspect-ratio:1/1;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.pgrid .num{font-family:"Cormorant Garamond",serif;color:var(--accent);font-size:15px;letter-spacing:.2em}
+.pgrid h3{font-family:"Shippori Mincho",serif;font-weight:500;font-size:21px;margin:2px 0 8px}.pgrid p{margin:0;color:var(--sub);font-size:15px}
+.wide{height:62vh;min-height:380px;position:relative;overflow:hidden}
+.wide .en{font-style:italic;font-size:15px;letter-spacing:.2em;opacity:.9}.wide h2{font-size:clamp(22px,2.6vw,34px);font-weight:500;margin:.2em 0 .5em;line-height:1.6}.wide p{font-size:15px;line-height:2;max-width:640px;margin:0}
+.wide::after{content:"";position:absolute;inset:0;background:rgba(20,40,55,.28)}
+.wide>div{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;padding:0 24px;align-items:center;justify-content:center;color:#fff;font-family:"Shippori Mincho",serif;font-size:clamp(22px,2.6vw,34px);text-align:center;line-height:1.8;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.gallery{display:grid;grid-auto-flow:dense;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:10px}
+.gallery div{overflow:hidden;border-radius:3px}.gallery .t{grid-row:span 2}.gallery .w{grid-column:span 2}
+.voice{background:#fff}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.v{border:1px solid var(--line);padding:30px;border-radius:4px;font-size:15px;color:var(--sub)}.v .star{color:var(--accent);letter-spacing:.2em;font-size:14px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:16px 4px;border-bottom:1px solid var(--line);vertical-align:top}th{width:32%;font-weight:500}
+td.off{color:#aaa}
+.map{aspect-ratio:4/3;border:0;width:100%;border-radius:4px;filter:saturate(.85)}
+.ext{aspect-ratio:16/10;overflow:hidden;border-radius:4px;margin-bottom:22px}
+.btn{display:inline-block;margin-top:26px;padding:15px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:14px;letter-spacing:.2em}
+footer{background:#24302f;color:#cfd6d3;text-align:center;padding:60px 6vw;font-size:13px}footer .logo{color:#fff;margin-bottom:10px}
+@media(max-width:760px){
+ header{padding:18px 6vw}header nav{display:none}.logo{font-size:24px}
+ .hero{height:92vh;min-height:560px}.hero-copy{bottom:20vh}
+ .rating{right:auto;left:6vw;bottom:6vh;padding:10px 16px;display:flex;gap:10px;align-items:center}.rating b{font-size:22px}.rating span{display:inline}
+ section{padding:80px 6vw}.head h2{font-size:23px}.intro,.info{grid-template-columns:1fr;gap:36px}
+ .pgrid,.vgrid{grid-template-columns:1fr;gap:36px}
+ .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gallery .w{grid-column:span 2}
+}
+
+.hero p{max-width:min(640px,62vw);line-height:1.9;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+@media(max-width:700px){.hero::after{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.7) 100%)}.hero p{max-width:none}}
+@media(max-width:700px){.hero h1{font-size:26px;letter-spacing:.02em}}
+</style></head><body>
+<header><div class="logo">SMASH CAFE<small>スマッシュカフェ｜兵庫・姫路 綿町</small></div><nav><a href="#about">お店について</a><a href="#menu">メニュー</a><a href="#gallery">ギャラリー</a><a href="#info">営業案内</a></nav></header>
+<div class="hero"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLffKmSla1QfSJiO70R3HhVFA0kvHXr4SwgeL0wBdteSMHGV8AjBMYQSXsBlB8Uaqe7AeDuM6T28ZXOBOnVTkluOfQBdLvEjQyjswfjnPmP_uH1fKeo9Xo405PdVP_7xva5_rYD4=w1600" alt="メイン写真">
+ <div class="hero-copy"><h1>BREAKFAST・<br>ALCOHOL・COFFEE</h1><p>姫路城の近く、綿町にあるオーストラリア・メルボルンをイメージしたカフェです。エスプレッソコーヒーやクラフトジン、ボリューム満点のフードとスイーツをご用意しています。</p></div>
+ <div class="rating"><b>★4.8</b><span>Googleクチコミ 391件</span></div></div>
+<section id="about"><div class="intro">
+ <div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLeNG1Dac1WmdZ8x5UhnAca5gkVwE4KoTCkJ1qjOkKz8DIKD3C5AWOOC8xBN2_cCteDPFnlFw4h65m4Bpd9Caux-wYuIjss1eZ5YFlPh-4z6VgVVAfA5MVVcJDS7qXB_HlmUn-iw=w1600" alt=""></div>
+ <div><div class="head"><div class="en">About us</div><h2>黒で統一された、<br>スタイリッシュな空間。</h2></div><p>モーニング・ランチ・カフェ利用のほか、アルコールメニューもお楽しみいただけます。</p><p>姫路城に近く、海外からのお客さまにもご利用いただいている、海外のような雰囲気のお店です。</p></div>
+</div></section>
+<section id="menu" class="points"><div class="head" style="text-align:center"><div class="en">Our Point</div><h2>SMASH CAFEのおすすめ</h2></div><div class="pgrid"><div><div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLcKrcrUymgrcwGTU9cz0FrV0Ho8lVox3WTB4aJrLlP0t-YC07dJpN9QQkPr7naRQ-1LajWnBIXo32A25EkENm0DKkR9s3D3K3arwMI0vfbC8oATGFZsqEd5mvCGns-5ZEP7DeY_Rg=w1600" alt="エッグベネディクト"></div><div class="num">01</div><h3>エッグベネディクト</h3><p>スモークサーモンやほうれん草のトッピングもできる、朝ごはんの定番。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLcFhpouaWzXCGNfr9AYXk8jsV3_7sPhyM91Rqnb_WETvbAGhfqbMqGXvx_SLtORZNEe2hjeSnCQleEeRYHW0c88sq1O0R1ctvpvf3WXOe5-Lg5yg2pXCpT_n-a_FCpV9J6WzZoa=w1600" alt="ホットサンド"></div><div class="num">02</div><h3>ホットサンド</h3><p>分厚いベーコンとチーズ、トマトを挟んだ、ボリューム満点のサンド。</p></div><div><div class="photo"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLf2vAUAf2YMXNBR55nMR0aWALJkWLY0VoetQvoGntqSv1rX0QU5tk8i0PsCsMmqdMq9vtapeivllZeRshRtkHMPeiu0HMew7t_i2NvQVYrr_B1OlppZk7BxHYGsYEwEVA7bOZI6iw=w1600" alt="エスプレッソコーヒー"></div><div class="num">03</div><h3>エスプレッソコーヒー</h3><p>ラテアートで仕上げる、エスプレッソベースのコーヒー。</p></div></div></section>
+<div class="wide"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLcK_718CvIWnH00NcCJa_845vkGQmcFO8vzc-wCpz1XCP2M2yvzRSnNacwPKxg_DGZMTkNxuwJQBwgupS08rf_A8U8XPvkWlqup_pT0_7DhImCfyfLTKkpKPVcipW21JjE8rzA=w1600" alt=""><div><div class="en">Melbourne Style Cafe</div><h2>朝から、しっかり食べられるカフェ。</h2><p>スマッシュブレックファーストは、ランチにもぴったりのボリュームです。</p></div></div>
+<section id="gallery"><div class="head"><div class="en">Gallery</div><h2>メニューとお店の様子</h2></div><div class="gallery"><div class="t"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLeMnKktu7OPURWkoIuK5Nl_rHNPDAgDgMu3C1cxX8fZx1ph-o9dfkCosgK3ugQLrVhbarnZReO7LvbCCbIjB14tCpIyBmgiuvzw2BKwVb_QuylXsmoQDxFbXpr56o_5giGLZBJ92g=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLffN8pV-aYBUQ6DXcDOyBx7iy5SF6YYYUyZ7jZi4f_VTPj44fGb1E7WMdPOJoM8hStBWpMCJdS9ySQwxt7wG4GlAwVbepuDAl0F9m4pRNiP7GflemqN7Yr7AX5dGGUOaknfCC8=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLfMAf2J1djcZcxPNhSzX_-7KKOVFdjqq4seyXr3ONs1Kw8utHRmijW33ztxvI7sVYYoS2043kogX3tkTnBLCU3nEvI0WuMocTxhK3TFT5hB2GHqPu46ScKCWotGmDTOJJs22TaxoA=w1600" alt=""></div><div class=""><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLfneFe5KJ1Wg1t-JDahtWMJDfjBCPyS01zQGsy38Au2xH67RY77rZSqB4aopS21m6yMK82UUiT2LirJtj0vhSyJci7vkMUM4kpe1wf_fSzqMUgiYKjuwqGcPb4-AO5fQNJALp2sOw=w1600" alt=""></div><div class="w"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLehiN6gsijsRO0U8ZvwRHKn3VlG2T4QBJTFEusn5RfPcABcegGGX6IalKFFy9U3w8p-0Lyjmpe2izXvXCPADnVLblAizd7_Ew7BcyH0iZYxAaEjwLYtc2JKjJrcDU50t06tplY=w1600" alt=""></div></div></section>
+<section class="voice"><div class="head" style="text-align:center"><div class="en">Voice</div><h2>お客さまの声</h2><p style="color:var(--sub);font-size:13px;margin:0">Googleマップのクチコミより（要約）</p></div><div class="vgrid"><div class="v"><div class="star">★★★★★</div>姫路城に近いオシャレなカフェ。この日はエッグベネディクトを注文し、スモークサーモンとほうれん草をトッピングしました。</div><div class="v"><div class="star">★★★★★</div>モーニングで定期的に利用しています。とってもおしゃれな空間で落ち着く雰囲気です。店員さんが気さくな方で安心。料理も美味しいです。</div><div class="v"><div class="star">★★★★★</div>黒ベースのオシャレなカフェ。海外的な雰囲気で素敵です。ベーコンエッグは中のベーコンが分厚くて、チーズとトマトとの相性ピッタリでした。</div></div></section>
+<section id="info"><div class="head"><div class="en">Information</div><h2>営業案内・アクセス</h2></div>
+<div class="info"><div><div class="ext"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLftPUNZkXqSvsw2gRnO_xkw4wVCIhY8X34pwbqe9SMs5ajiFSJ6rztWpDn0w5IkATkAmjte2YAyMyS9X01BBLCNzIbbqlXbThseI5MnQ61N8RTj0wBUSmorreBi_CJV-Yg8glQ=w1600" alt=""></div><table><tr><th>店名</th><td>SMASH CAFE（スマッシュカフェ）</td></tr><tr><th>住所</th><td>兵庫県姫路市綿町76 こうしんビル1F</td></tr><tr><th>営業時間</th><td>10:00〜18:00（L.O.17:30）</td></tr><tr><th>定休日</th><td>水曜日</td></tr></table>
+<p style="font-size:12px;color:var(--sub)">※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。</p><a class="btn" href="https://www.instagram.com/smashcafehimeji">Instagramを見る</a></div>
+<iframe class="map" loading="lazy" src="https://www.google.com/maps?q=SMASH%20CAFE%20%E5%A7%AB%E8%B7%AF%E5%B8%82%E7%B6%BF%E7%94%BA76&output=embed"></iframe></div></section>
+<footer><div class="logo">SMASH CAFE</div>兵庫県姫路市綿町76 こうしんビル1F<br>© SMASH CAFE</footer>
+</body></html>
