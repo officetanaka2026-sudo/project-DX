@@ -1,0 +1,98 @@
+{
+ "slug": "slowjam",
+ "name": "CAFE SLOW JAM",
+ "title": "山形・香澄町の、カレーとスイーツが楽しめる映画館のカフェ",
+ "logo": "CAFE SLOW JAM",
+ "logo_sub": "カフェ スロージャム｜山形 香澄町",
+ "h1": "カレーと、スイーツで<br>ゆっくりと。",
+ "lede": "山形市香澄町の、映画館に併設されたカフェです。鯖レモンカレーなどのカレーや、カヌレなどのスイーツをお楽しみいただけます。",
+ "rating": "4.3",
+ "reviews": "167",
+ "about_h2": "映画のあとも、<br>ゆったりと。",
+ "about": [
+  "映画館に併設された、落ち着いた雰囲気のカフェです。ひとりでもゆっくりと過ごせます。",
+  "カレーやスイーツのほか、コーヒーやお酒などのドリンクも用意しています。"
+ ],
+ "points_h2": "CAFE SLOW JAMのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "カヌレ",
+   "text": "外はカリッと、中はもっちりとしたカヌレ。"
+  },
+  {
+   "photo": "p2",
+   "title": "カレー",
+   "text": "彩りのきれいな、季節のカレー。"
+  },
+  {
+   "photo": "p3",
+   "title": "スイーツ",
+   "text": "カフェタイムにぴったりの、手作りスイーツ。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">CAFE SLOW JAM</div><h2>ゆっくり、おいしい時間を。</h2><p>お食事からカフェタイムまで、お好みでお過ごしください。</p>",
+ "gallery_h2": "お料理とお店の様子",
+ "voices": [
+  "鯖レモンカレーが美味しく、おすすめです。",
+  "カヌレも美味しく、お茶の時間にもぴったりです。",
+  "映画館に併設されていて、ゆったりと過ごせるお店です。"
+ ],
+ "info": [
+  [
+   "店名",
+   "CAFE SLOW JAM（スロージャム）"
+  ],
+  [
+   "住所",
+   "山形県山形市香澄町2丁目8-1 1F"
+  ],
+  [
+   "営業時間",
+   "11:30〜17:00"
+  ],
+  [
+   "定休日",
+   "無休"
+  ]
+ ],
+ "link": "https://www.instagram.com/slowjam_yamagata",
+ "map_q": "CAFE SLOW JAM スロージャム 山形市香澄町2丁目8-1",
+ "address": "山形県山形市香澄町2丁目8-1 1F",
+ "vars": {
+  "sea": "#3b2a1c",
+  "sand": "#f8f1e6",
+  "ink": "#2a1d12",
+  "sub": "#6d5d4c",
+  "accent": "#c26a1f",
+  "line": "#e9dcc7"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLdLUtw8KcfrzcJrrW9NFE_o4z2VZolSaB1jrRUxjwtZLeI64K8HASW1T_bYGEhvUWdhXSdU0fc7xSZmAD8DPYuQ3B5gZEYTZ2PA4xLyRA66m0KsN1QuSkn5RgtIB4EyTdOpkkMIIg",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLd6TZqYyZJbfTGHTqBmXqcDvNLDILArP6DZ8qCis7a5ALeUneeUq6Ns9IB7m6L0_7b_59O6AcCB9QT8egtklXxYac9CClhJVV2EaYU0xhFtDrNl7NoSdUMj84BnJM7r8Q4L5IT93Q",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2I7DJAQK3zh4dkhp3SpJukWVlerTtqhS_KKqAv9DTp5VFzbuPdL7k9Ys1no5dlbeSxL8bAeWijgmrGAeMV5JU9AMmlvwWkH3a3iO7-8juOLTQ1rTjzbjHCaRmLk_zcbxFAEwp",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLdu52S_us1P87GqvSOhbRcuwEkxt_92qMFAXowDgkqZskQ5eJzJCyH-4urMzK-rcqgv9rtOz9mZ_vvZnR5sk6pDirjJ0wp-897ZmF4p_o1QZeIJVwuPNUfluF6N-ao-OutFe6Tn1L-zcMWW",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2OvDiU2TtAHkLgrQgZRA_TqliA9lKuJGweu189ojCFJBWgHiim9j2poTECVI2kogdvxxmqRuhzTtm-vT_f3977my9Nt7UcLKCjvIuw5nRpKWDyh1l9zqcM-pxwTKUPSDQ9U8P",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLfwNxVXuhjNps0gdi16l6OmwwKfEBpNRNzh1xODu-mVR6siAq6cByFUYNhNdRoCJ3eGTZsg6pvIOvdO8fMILUNH8S6sBewcS4H-qXv8VqZzuy7kntcBLTv3t2C8BbhjwD7AnERpqg",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYu2GLz6yF_XoSVxjj_MRCinuNxAtFUodgwbdMGM2RFOLntvuL0GINXyzjziBNsOwOPRMF9-J4JyULPKPU_CZoFpz4JfJt77IG7bgGLa0o5xM05YnTDzt2uWomS0GJ9WAhzhPF",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6IPXJOGAdlZXx0ou36Xgr0St_005RKXPOyassYdoXmoro9lrpgc7-TNqQXBxADpxaBwd1CUvfYHxt6SYcD72s22_oG31cz9HFNk98eMwIhUjjkzjzvVjNfDf0kjn_BMSBo_t4",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLeryhLf7NbEIDerV-bu26NujC_cA5Qmiz4AjJILjAwVKGhRuSolBEAMaGWn_1-QESV92SKR2PS7NRNvnH-11KV-KgujRsY_O2bvcIodS76ift8BfTRZUXZloEMBB-rballVOjOIgA",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLcMiOtk_Oduh1J_CeqH9BaPAkWQzufLtZlED3T6nRS5rXOG6XtVa0pdvl0IwOs3MxW_ZC7TjrKvLkKqwPAhkmAjpzcj1TDuFzVB44Z42ujah3nizPLxjd4I5I_f4WB95bxSniQS",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLeAWJgpGXryyY_RNuNxJlB649ut3TtAhCuuTJ1_G7mLF1lzXcMAe-hc8ctU70e12ZCYKvRbAst6MIE21_XsawNT0h9vDnxy2g6W0WuwaA4YeaCoKyZencQ4SfDvtZVUUwZb5ds",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLd6TZqYyZJbfTGHTqBmXqcDvNLDILArP6DZ8qCis7a5ALeUneeUq6Ns9IB7m6L0_7b_59O6AcCB9QT8egtklXxYac9CClhJVV2EaYU0xhFtDrNl7NoSdUMj84BnJM7r8Q4L5IT93Q"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

@@ -1,0 +1,102 @@
+{
+ "slug": "cafedumbo",
+ "name": "CAFE DUMBO",
+ "title": "金沢・香林坊の、コーヒーとお菓子の小さなカフェ",
+ "logo": "CAFE DUMBO",
+ "logo_sub": "カフェ ダンボ｜金沢 香林坊",
+ "h1": "コーヒーと、<br>手作りのお菓子を。",
+ "lede": "金沢・せせらぎ通り沿いの、夫婦で営む小さなカフェです。コーヒーにこだわり、ケーキや焼き菓子、豊富なドリンクを楽しめます。",
+ "rating": "4.6",
+ "reviews": "269",
+ "about_h2": "白を基調とした、<br>落ち着く空間。",
+ "about": [
+  "お店は白を基調とした落ち着いた空間で、家具や本、雑貨もすてきです。",
+  "席数が多くないので、空いている時間帯のご来店がおすすめです。営業日はInstagramでご案内しています。"
+ ],
+ "points_h2": "CAFE DUMBOのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "バスクチーズケーキ",
+   "text": "ドリンクと一緒に楽しめる、濃厚なバスクチーズケーキ。"
+  },
+  {
+   "photo": "p2",
+   "title": "自家製ティラミス",
+   "text": "ほろ苦さとなめらかさが人気の、自家製ティラミス。"
+  },
+  {
+   "photo": "p3",
+   "title": "スコーン",
+   "text": "焼き菓子も種類豊富で、コーヒーによく合います。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Sweets &amp; Coffee</div><h2>ケーキも、ドリンクも、迷う楽しさ。</h2><p>ケーキは種類が豊富で、ドリンクメニューも充実しています。</p>",
+ "gallery_h2": "スイーツとドリンク",
+ "voices": [
+  "レモンケーキ、自家製ティラミス、キャロットケーキなど、どれも本当に美味しかったです。特にキャロットケーキは絶品でした。",
+  "香林坊の川沿いにある、白を基調とした落ち着いた空間のお店。家具や雑貨も可愛くてお洒落でした。",
+  "ドリンクメニューが多いのも魅力で、ケーキも美味しく、また伺いたいお店です。"
+ ],
+ "info": [
+  [
+   "店名",
+   "CAFE DUMBO（カフェ ダンボ）"
+  ],
+  [
+   "住所",
+   "石川県金沢市香林坊2丁目11-6"
+  ],
+  [
+   "営業時間",
+   "12:00〜18:00"
+  ],
+  [
+   "定休日",
+   "日曜日・火曜日ほか（Instagramでご案内）"
+  ],
+  [
+   "ご案内",
+   "店内撮影についてはInstagramをご覧ください"
+  ]
+ ],
+ "link": "https://www.instagram.com/cafe_dumbo",
+ "map_q": "CAFE DUMBO 金沢市香林坊2丁目11-6",
+ "address": "石川県金沢市香林坊2丁目11-6",
+ "vars": {
+  "sea": "#3d3d3a",
+  "sand": "#f9f7f2",
+  "ink": "#242422",
+  "sub": "#66655f",
+  "accent": "#2f7d6b",
+  "line": "#e6e2d8"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLfQhD4aJLIc7hyb3PE2p4BErh2Et0FIHM9Xilvtqq1UdDwWV8IADiZCmcSKGueMnYAlGxRR4Mn1h7t5SenVyhtDa19OtxMSToIi5jXIzI26CnrJ-sKvYYKMvwN4ccc-h7sA9yhH",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqv_-rimGcNoJvJR_zr5Z--BjvamYixOAF-IUhqX6WdqcnrjetWcK5QJya7vaQq4ToJZBjF14A6gj-MxkEjCKDwIlDZkBd4Te7ynuw4bYaAyPPjnImnJ537yteKvV1AHouMBw",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLcsfbcz3mC7GHpU_UX5uxXOwoUNFE2GuvEqmej1db7Yj2SPFMKGgQho8Pcl9gobLBIl8GFmdUhRnLadruwSnk5p3Zmao9vLWZnmwwNh2Jn7U44f-RrYniUmMs1RsPOvM9qCXMFVaA",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLeYvjLVbPg_UozURIa4cRdNJkMtxIG84ZLMEYZerfp4zWkBO_VFykzeOEAGYdGqXzXBeqMgwA_hqlu93U2q93nzAlATLTKHfctwu1WTiuMzkeuC0n37yGMFib4HaB_Ifg7H520",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLfkDtxzI4azOFuehQm16TgEKOpwmiiX_tsdakgWVILrHGrWM9gexstefuq1-ioPDNPvLtaxLv-gSXXp2wGKuqh0zPAkr07Tg0azygDMxuwXFrbgFJdTqNbk3GZ_PAJ7xOYET6yL",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnsdMuc2-RC_MjDpV4mITh__iuIvxWAURD5CTFnxWI3zGY7HJqU-KwvG7uU6iR8UjIE0xKaQhrsB9Zr3KCtyLZecRz63bDOyXRVvdt2b15LSZXoKQdgrGshXnWq2Q-21WkZYyrVA",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeN2plI5nmRAvenWiWmt94K2ylgmHENohYnXrGGeYWxiaUegX_Vi4YEH6EWNxH9FVnoZ8iYCI2TafnCnnX3nS333zn8t_tws4yKv_T48V6yziuBEoG6w_UfwIncmzlaNuHqFID",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0FrAH9EUoL4ZUH_QsAIkjS5qwTH1jUX-Np34IMnQIYQ47q4yz9jrkhGuQ8oww1dRi6ToPZY4NkH_yzLTLVarxJ4uybNGfs8shekXwtrsPZ_q-A7ShO0pnmn0VjwHvu-ppjxki",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3Qgz03SPZjFHn0Tmumm4vsEsAzAuCx-RNCl6Xo68L41uNDDOF3JrZ48xYZh6AdB0bF7kOl91B9s7DAMAQ1CD39GybF_1YXCix5QACvIekcC_HR1QQO3cO3ZrwjEIXgtM2jOuA",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLe1YkhQ72A5iOcZje0r8vDoNDml7oau-ByZ6tM0nvn59pBKfJfh-QQMSpgfapvuc9tFCFkaPsF9z3gqljixd_c706zO7pIg5XYaQfFODDPw3N84t_QN_xQUwJVnmcUNVdMQcehe",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLcgOu-c8JHXtujxwHSzWNVeT87h9oX0pY58wSUl8JdUHD1AiYpAxIsfd_z1l0lLthsEaTbI_2ZIp_QW2Q38wAwbTx5vtE9vk74JPC4DhhdFVjGq4j4y2DfWov6AQfId0gUmJKfw",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLe3nkpPlUYXsSMsN3njTQWIgb98XQqKbCCfEdir6dD0v3TI9Bfz4oiZ9s5G_hNZECEthkVipXqi33mI8wcyHcRIHx_nIP72mubLqLLSmybexUAbXGbva3HwdAAboC3NwVwX4JwE__ncCnI"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

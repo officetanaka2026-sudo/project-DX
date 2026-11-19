@@ -1,0 +1,102 @@
+{
+ "slug": "cafeinfokanazawa",
+ "name": "Cafe INFO",
+ "title": "金沢・ひがし茶屋街そばの、パニーニとコーヒーのカフェ",
+ "logo": "Cafe INFO",
+ "logo_sub": "カフェ インフォ｜金沢 尾張町",
+ "h1": "パニーニと、<br>コーヒーのひととき。",
+ "lede": "ひがし茶屋街のすぐそば、橋場交差点の角にあるカフェです。エスプレッソとパニーニサンドイッチ、ワインやスイーツを楽しめます。",
+ "rating": "4.8",
+ "reviews": "99",
+ "about_h2": "2階席もある、<br>居心地のいい店内。",
+ "about": [
+  "朝8時から18時まで営業しています。時間帯によってセットの内容が変わり、モーニングも楽しめます。",
+  "お支払いは先払いで、PayPayやクレジットカードに対応しています。テイクアウトもできます。"
+ ],
+ "points_h2": "Cafe INFOのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "パニーニサンドイッチ",
+   "text": "こんがり焼いた、具だくさんのパニーニ。"
+  },
+  {
+   "photo": "p2",
+   "title": "ラテ",
+   "text": "かわいいラテアートも楽しめる、人気のドリンク。"
+  },
+  {
+   "photo": "p3",
+   "title": "前菜プレート",
+   "text": "朝食やランチに楽しめる、彩りのよい一皿。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Panino &amp; Sweets</div><h2>食事も、スイーツも。</h2><p>パニーニやスイーツ、ドリンクまで、ゆっくり選べます。</p>",
+ "gallery_h2": "お料理とドリンク",
+ "voices": [
+  "パンはとってもおいしかったです。外国のお客さまも多く訪れていました。",
+  "スタッフの方がにこやかで、店内の雰囲気もいい感じでした。",
+  "ひがし茶屋街からすぐの橋場交差点角のカフェ。2階席もあって雰囲気がよく、テイクアウトもできます。"
+ ],
+ "info": [
+  [
+   "店名",
+   "Cafe INFO（カフェ インフォ）"
+  ],
+  [
+   "住所",
+   "石川県金沢市尾張町2丁目13-9"
+  ],
+  [
+   "営業時間",
+   "8:00〜18:00"
+  ],
+  [
+   "定休日",
+   "Instagramでご案内"
+  ],
+  [
+   "お支払い",
+   "先払い（PayPay・クレジットカード対応）"
+  ]
+ ],
+ "link": "https://www.instagram.com/info.higashiyama",
+ "map_q": "Cafe INFO 金沢市尾張町2丁目13-9",
+ "address": "石川県金沢市尾張町2丁目13-9",
+ "vars": {
+  "sea": "#3a3f4a",
+  "sand": "#f6f3ee",
+  "ink": "#23252b",
+  "sub": "#62656d",
+  "accent": "#b5532f",
+  "line": "#e2ddd5"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLeJweliJO0LyEdt9nI8un3c0BLjag9pEztJroRHyK0miobo3lq0-uOge4MAxSfIdodickujVv_mn1Pczf_7oqXg1qQNl0PuLhe4K632cOd5CVWl0ZHT1E7i0janZzf-hi6FNMye6z1M8f6I",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLdSx5c-Uy11PZNgLRknY3tnryNjCXWyX2ZwmjlLF_25YElPZbiuXXeKErTjUZU48_3bkfhTiHV_rBSfksDZ2fd9cejx95aNC1jFYW0ivJ45jC0ke-MMMT_3kOJ-cVCLib-ZCzE1ZohM0aBj",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLevAcHu4wcNq_Yk3ElPc10iDMEsy3XwIJ_wv76owEf0_TfEe_IyouBoMyEsWYVbfRj0y4Jg0Z3o6MWvxK5eT1XzlZL79xKZD4ahXGN7lISGyfcdV2SB_hoFl6umASFPAm4qqt8X57tL201U",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9x5V60OtPCWXIcE7YFnzoSI3Rh7ylp82MyMWTZzhGhWUFkUEYrz41i6yDm6A2m_pmETeD2AIbs9G4N9Vc4xBET-aVvPNZVzKzwaI9EFhDQTbt2SLs2lUTq9hy_Ev3btEV1bsQ8YZJS4oo",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLcpIEBllqcw3cqLHCYqUYyLuOzGxyRZV6Z-rus1Smn2NFh1Om4lFG254SVA9pDz5xcy0OKaj3CLMpc6CfHEUw4CbXXkb9YshJDCKFJ80axcKNhJWm0_rqVd5YoL0jDZ0Z0f09mkwjLEfNI",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLf3us0fnUmbrh_9VM5l-YnkGPFpqX9LJgOdRlEWq9exjdEhF_AZFT8AQc2Eeiu-akZJZA9SbP7mSW9HDXMSWLhPx0XVwUrVudVIfZz5UENrJAOnTCtKTA1u80cqv-qBjIgXYk35ks8qKlKv",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-AAcb_4sC55v8U3l6hLVW317VHpccnMSMqpllilJ58fuE4gtC79jJLMY7w82X0whOFYlJWanDroguYbpKgsPq8pRU3PZSMuIO-sL5V13rdKgP6HRsGVc1Vlb5_CtQSEtVh4tA-_O8bPjv",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLfGmB75dhA49bM5daHLfgLDsPR_-UOZ4GUWwqqWDAEC0Sx4CRhRpKxKB6ztcrWOU5Yylfp2gAH1iQd_G_1jgszjfWCmiCfZG3DtBvMgryMqk7nriMWAQdWVHi74Atu-A3EA3E08PT0tvR1M",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwSIEiwJNOFeiuBUDGRrxgw3eOPQcJ7SKMnAqwO7ncZR3s9Fu_CUYQlv4S90lko8JdSd1LZHAxAnspyF4tS9614yCa0-Be02bodcpEdTHsdEP0RbgOZxsSulNHduy_c1fapBWiVOEWDNEs",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvLoB3_nijq_3CECb9cMGNz1jDJ8WZXZsieIF_jW9zTlCVzSS3yk81Kl6ohmJvjbBXYL2QFoHtMVVf0bmZ94cYMMGraJcOikHqUT-BDq-azJktxmimwzCwLmVqdYO5etuv87bH9izQi_GE",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLcyBJEv6X1qVOgIx4YtIFcZZ3llAvaUhP53Ffu5sOJ8j9jqyVzRSnHcdacQAE3EBm6j1cYk2IU6408LMrxb_1E6fQtWHaSPCMpII2yAgE4_xMd0P-DF6svLZO4dco-52UI6I0w-Vaj8Ra8b",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLcFe4TD0fkx-S5OLG2HlY-nUbyJwgmM_BxhZHQgVbfMTvgrEiRP7DkN-Lo3S1iDaV1r2clThm9RcVVUGdul3Qe28qhVtGO32Ariz8bnhzkVxKB20QHkB5joGCESIMiTReqasowT1OJXjtrR"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

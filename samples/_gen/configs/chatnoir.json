@@ -1,0 +1,98 @@
+{
+ "slug": "chatnoir",
+ "name": "ル・シャ・ノワール",
+ "title": "鹿児島・池之上町の、クロワッサンやタルトが並ぶ小さなパン屋",
+ "logo": "Le chat noir",
+ "logo_sub": "ル・シャ・ノワール｜鹿児島 池之上町",
+ "h1": "クロワッサンと、<br>タルトの小さなパン屋。",
+ "lede": "鹿児島市池之上町にあるパン屋です。クロワッサンやタルト、キッシュ、ハード系のパンなどが並びます。",
+ "rating": "4.8",
+ "reviews": "33",
+ "about_h2": "ひとりで営む、<br>小さなお店。",
+ "about": [
+  "オーナーおひとりで営む、小さなパン屋さんです。クロワッサンやタルト、キッシュなどが並びます。",
+  "営業日は火・水・金・土曜日です。営業時間は曜日によって異なりますので、ご確認ください。"
+ ],
+ "points_h2": "ル・シャ・ノワールのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "クロワッサン",
+   "text": "サクサクに焼き上げた、バターの香るクロワッサン。"
+  },
+  {
+   "photo": "p2",
+   "title": "タルト",
+   "text": "フルーツをのせた、見た目もかわいいタルト。"
+  },
+  {
+   "photo": "p3",
+   "title": "キッシュ",
+   "text": "具材のたっぷり入った、食事向きのキッシュ。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Le chat noir</div><h2>焼き菓子もパンも、ずらり。</h2><p>ハード系のパンやタルト、キッシュなどが、ショーケースに並びます。</p>",
+ "gallery_h2": "パンとお菓子",
+ "voices": [
+  "クロワッサンやタルト、キッシュなど、どれも美味しく、迷ってしまいます。",
+  "オーナーおひとりで営む、小さなお店です。",
+  "見た目もかわいいパンやお菓子が、たくさん並んでいます。"
+ ],
+ "info": [
+  [
+   "店名",
+   "ル・シャ・ノワール（Le chat noir）"
+  ],
+  [
+   "住所",
+   "鹿児島県鹿児島市池之上町16-1"
+  ],
+  [
+   "営業時間",
+   "火・水・土 12:00〜17:00／金 12:00〜18:00"
+  ],
+  [
+   "定休日",
+   "日曜日・月曜日・木曜日"
+  ]
+ ],
+ "link": "https://www.instagram.com/le_chat_noir_2021",
+ "map_q": "ル・シャ・ノワール 鹿児島市池之上町16-1",
+ "address": "鹿児島県鹿児島市池之上町16-1",
+ "vars": {
+  "sea": "#2a2a2e",
+  "sand": "#f7f4ef",
+  "ink": "#1f1f22",
+  "sub": "#66625c",
+  "accent": "#b8793a",
+  "line": "#e6dfd3"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLeF-LRqpNXqS3FJOY80HirQmBKUzkUIh425SLlV7IjwYelYYkND9VwOk5WUwBnmsEAg55P0gZX9di9k29GJCBe2XdN1nKYuTRQCTAm51NJljZq6OtFICVQzYgZBl-EcvWNRzpm1",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6SIDwfVfWtZhSbxMb7O_WAgiqzKxkkUkWS0qvkY6-M6MWD9_0NIBnruZVX81B-iKdn36Mnj8T0U6DaTM4fcSGTOQ2zNQC1myxnvHCCS-UznsdjQFHOub_FQuytKMndjbi5lBV1w",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLem_9IfKx-t6lELvwLK4Egm9Yf-nnlJsp-fEX06M5yqvSsiHM7bsd2CHGYH36Wl0klkxlqdW3CCEj_ej3bQGCInSc8SyUM-i_lcwBLmik9AlPv4af1zo_HDiY6M40PthGQmNzv8ug",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZx7M6P1Z1UB9aDXmFWKEhduqxFrlLErv67Ks7lt6OVa_MdoLbN9aTjBkq87gF0vz1Yx8HuexF--zviUx2zEPStuNRxEhIlRIwSViXB6MkN0HLbQxjVyofLKH4pmYtXFdbafgR9g",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLcmNkxc78k_zQ4bpr1LoFGEUZSD8MXeNAtvcJvKr_k8ORCB_qpL7jzYVDALmanH0A02sUz6V7lXrkVc13y5PF4m_2OC6g6LgQVeVdiKhG1vsro57bmuzjW99avazVXF8un0ZUjE",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZHmaEqgfkRKgvGkX8bQkHJWw-FhFuQJqXCXjNUaq5CjaCqrNwntNjEhi0mXW-L4O_PtWk6-HIVEoTILLIIFDCNSL-CBvfQ3K4zFbN1Fp4dInz_vhQpCrPQvCa6W_qeylXQSrU1g",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLctqQZ1rumHOpF8mWoQhCTjVDUo1Gmim7b_SwQvDo_pX_Y-AocyeD8UeeRlHf8aa2Y4Pkx2ooNFdITLikUPHaMrrXalC_7H9KIfRfPA6VE6ndYZqkbvXbJ9kZB193rQjcuG8Wj6",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLftztHIAk9Oouk5qjukgWr5ZiOvW5JcBczE0MvJZIEYsCg0z-0FULasRRV2D9Vp0RdabT-x_UN1k9H4ysdlTTHwvuZfvck19DDdV-rmLkYGpIz3KmS-SIIdqUtcCNwBXyHwQ6p6",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLdSNS1vOFKIhTWibko-Q4qrt8Bvr_PBnqcrNjQctka-F4QCF6AhcKr0b_Cu5srZ3mDwZbpI0otG2HmfH58qADxhpIMUpyxO-2_MxBp-1qU3ScZayYk2EUDeLxgKxamOkmkVa9gHHw",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLeLog3ODZMUVnAEhqyoiqQUHQ5pYrHfewz5PYOQ8NacFZBCDPipIX2j-LzR6-b15ZqEH948msEY583ZTr92C8kBw5yaRRBfTzPWPPXTIWadG2Tb_nw9ifgiWfwmb4Fp7asuXRw",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGFeS2ilnNTtgE6xfGOOGXSAm2hE99dQo-WC8W6Org3_tS8-iwCZIISqBx-Ku40YvwS-sDMXbI-K3BPfrzEGuOUI69VkDMVdUYl_zelIU3qRQayqLfZltokj9uUnO4qRxMCLN5vA",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLdI7ri9vsXjD3IEkTllM2zIQYl_TB9gK02g3J6WmIhJhaLwXWhtbRV6m8-BpPaQe6fodlQdBvpjqo1H2LYSBZmmukjzIx77Nokl-0erFvyymdnvPc0h-GOOfmMecynedfy9SYQX"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

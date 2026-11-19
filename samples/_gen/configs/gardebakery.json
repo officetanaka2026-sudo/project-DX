@@ -1,0 +1,102 @@
+{
+ "slug": "gardebakery",
+ "name": "ブーランジェリー ガルデ",
+ "title": "鹿児島・谷山の、センスのいい創作パンとハード系のパン屋",
+ "logo": "boulangerie garde",
+ "logo_sub": "ブーランジェリー ガルデ｜鹿児島 谷山中央",
+ "h1": "センスのいい創作パンと、<br>ハード系のパン。",
+ "lede": "鹿児島市谷山中央にあるパン屋です。ごぼうパンやシナモンロール、バゲットなど、個性のある創作パンとハード系のパンが並びます。",
+ "rating": "4.3",
+ "reviews": "41",
+ "about_h2": "見ているだけで<br>楽しい、店内。",
+ "about": [
+  "おしゃれで温かみのある店内に、種類豊富なパンが並びます。見ているだけでも楽しく、選ぶのに迷ってしまいます。",
+  "お願いすれば、パンをカットしてもらえます。店の横に駐車場が1台分あります。"
+ ],
+ "points_h2": "ブーランジェリー ガルデのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "創作パン",
+   "text": "香ばしく焼き上げた、個性のある創作パン。"
+  },
+  {
+   "photo": "p2",
+   "title": "野菜のパン",
+   "text": "彩りのよい野菜をのせた、お惣菜系のパン。"
+  },
+  {
+   "photo": "p3",
+   "title": "ハード系のパン",
+   "text": "小麦の風味を感じられる、ハード系のパン。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Boulangerie Garde</div><h2>焼きたてが、ずらりと並ぶ。</h2><p>10時のオープンに合わせて、焼きたてのパンが店頭に並びます。</p>",
+ "gallery_h2": "パンとお店の様子",
+ "voices": [
+  "店内はおしゃれで温かみのある雰囲気で、パンの種類も豊富で、見ているだけでも楽しかったです。",
+  "シナモンロールは、パイ生地のサクサク感とナッツのコリコリした食感が楽しめて、あまりの美味しさに驚きました。",
+  "味のセンスがいい創作パンがたくさんあります。ハード系のパンが好きな方におすすめです。"
+ ],
+ "info": [
+  [
+   "店名",
+   "ブーランジェリー ガルデ（boulangerie garde）"
+  ],
+  [
+   "住所",
+   "鹿児島県鹿児島市谷山中央5丁目9-13"
+  ],
+  [
+   "営業時間",
+   "10:00〜18:00（完売次第終了）"
+  ],
+  [
+   "定休日",
+   "日曜日・月曜日"
+  ],
+  [
+   "駐車場",
+   "店舗横に1台"
+  ]
+ ],
+ "link": "https://www.instagram.com/boulangeriegarde",
+ "map_q": "ブーランジェリー ガルデ 鹿児島市谷山中央5丁目9-13",
+ "address": "鹿児島県鹿児島市谷山中央5丁目9-13",
+ "vars": {
+  "sea": "#4a3b2a",
+  "sand": "#f9f5ed",
+  "ink": "#2a2218",
+  "sub": "#6b6154",
+  "accent": "#b4672c",
+  "line": "#e8dfcf"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSDWKKPYuqt3qc8mx1w3ryjSHHbwHEJkGg3zYrZ6g649HF2IRxDjxPp5knDCFe6cfXRxtaDpThFdcwjnfkmKRM2zRP785nMpcFiOrYTPYgiR7Xt7SuXd3ah7M2pxTgFFXF1wgKyw",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZdptLtf_l-86DZD5c_Hy2GV4zXX2BxUU1KrWjIzUi3YGXkf9_E14r2Nu0u6uyHsKv55t2nUdfiwfR3DNzUD_WzVAay_UrQFwelP_nFjUpBXnzt8B8eDJRv9r728yiMkc69oknVg",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLethMUNglHuMgIaRm58ti4-xYYmuItjQVmUGNXW6W2mj3QYSW6ruE2Ki5AZDeA4JjOCFSy24BM1ke6XXhRHRfw16n1XcDr2cUmJqjeqieKPerKObah3EPDPcnZll9SWC_WB2h9sMZD5iZMc",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTZzacoxhcaVEo78BJxH-iIDX5mjt-F8yEWeqa-o6z3jN6ftKcfYQXEkgf3AosFnIvHrhNzLlGo-xWy_KM70EPKqlY53dYxbzAwXOW12nX_j2A6XEmoePwexcYO5NIOkofFIxxktOLv8N-",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2pUm7i8NCznNnjqz2iJ3QGKGha5LxtmQd7Es1w-gpfwCLSSBN4spooI-3NSWMfm_V6JL9MRJI3VCWCIUw_rb3MPbRvLViKYaKkebGmUA32TNCZbaWDCu2-Td17FdtJhdHKGu1X96Z900",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLeAU-sLyjKI9_ArnCMR974Gp_bav_FRxyMaknQmfADM8QJC6a0b3S_b-B-I4Lr4cjWhci5-YLTIXy6kZbfYG0GKaE4Y1lYsUBhLpWa-Ub1RWukflennFyeMwFF1hVaW_kD-JSudKddwMtfV",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLeJ5-tQsuFv_v76zCjRWzaHeyVTR0KtbI-YCSXXZeDsN-qTYqnFT1d4JF75pIL7NlIqg7c8jUOCMXcqsVo7qT73TzzYR46eT7FWqq2_T8TFMR-Dkd6Iu96i53zbQuSgTgzrk8c_E3rrlAwf",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLcNUKbQbrpZCG7t85YVahKz-Ah-eSONqAiwVJ9uw8ah3xo8iukzHJzRnNf_OYNHSAtFlzHh8p52cKep6VpUoYLmBLWzEWV68cYX2-6E5oEMdvSZTCo_GuAlS6305uvjCQAmPVE3",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-MEg88aryjNfOLrJylUYTkP2LTwLWfzC5TQ9V9kOL0AIAY6SHJb6myW4l3V0NYxeiVV4QoYmhXJ1n4ZbqLQgDEUhUsq9AY1jAn9g6Kl7DlnS0sjX5SJuhsy7Mj8Dv-tI_KZZyq8tDiRY1",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLcYL-yI5mrywjJTeS-4-YR8mdP3IRagbotPaBTK2UtPMdGyAdm17bjOoSiSa-e0eB3h3_Px1y4LaJox0La9vumlSQ2uMbImymwpeWVfh-5sDZHCaLsvh12ggr8PyOEEtV9BMsTXMC6BQ_Y",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLf7atonfkklE95-iV2INofPdS9m22EBJX8zp91uNd6xSq1xud6_Ho-8oSvoytAw8-yW-boItaDjwR-1hve3JUZFJf7UWLVgdm1OHngIghO61RdxpVFah1lcvg3xerMoO_QnEubTNA",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLcN6E6DxFst7KYdDs050NBWa_f1cT78uZqwq8HxXEFjzIdz_0ezaNFTnstByaFZ1NtihtjeCel_Hv2d8f7HhmpI1iCsesLtfJsiTpL179HNuTmrT2cJvh1F3RenB8XAa2aZ6hdA"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

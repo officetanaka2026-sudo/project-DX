@@ -1,0 +1,102 @@
+{
+ "slug": "caffeordinario",
+ "name": "Caffe Ordinario",
+ "title": "鹿児島・荒田の、ほぼ手作りのコースカフェ",
+ "logo": "Caffe Ordinario",
+ "logo_sub": "カフェ オルディナリオ｜鹿児島 荒田",
+ "h1": "ほぼ手作りの、<br>コースを楽しむカフェ。",
+ "lede": "鹿児島市荒田、鹿児島大学の近くにあるカフェです。月ごとに変わるパスタや自家製パン、看板のイタリアンティラミスを楽しめます。",
+ "rating": "4.7",
+ "reviews": "47",
+ "about_h2": "おしゃれで、<br>落ち着く空間。",
+ "about": [
+  "ランチのコースは1,500円から。パスタの内容は毎月変わり、季節を感じられます。",
+  "ドルチェのコースもあります。自家製のイタリアンティラミスが人気です。大きな看板が目印です。"
+ ],
+ "points_h2": "Caffe Ordinarioのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "月替わりのパスタ",
+   "text": "季節の食材を使った、毎月内容が変わるパスタ。"
+  },
+  {
+   "photo": "p2",
+   "title": "自家製ティラミス",
+   "text": "看板商品の、イタリアンスタイルのティラミス。"
+  },
+  {
+   "photo": "p3",
+   "title": "自家製パン",
+   "text": "温かい状態でお出しする、焼きたての自家製パン。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Pasta &amp; Course</div><h2>前菜からドルチェまで、ゆっくりと。</h2><p>前菜、パスタ、スイーツまで、ほぼ手作りでご用意しています。</p>",
+ "gallery_h2": "お料理とドリンク",
+ "voices": [
+  "毎月パスタの内容が変わり、季節を感じられるのがいいです。自家製のパンも温かくて食べやすく、看板商品のティラミスもとても美味しかったです。",
+  "前菜、パスタ、追加でスイーツまで、美味しくいただきました。",
+  "大きめの色の目立つ看板がありすぐ見つけられました。お店に入るとおしゃれな雰囲気でした。"
+ ],
+ "info": [
+  [
+   "店名",
+   "Caffe Ordinario（カフェ オルディナリオ）"
+  ],
+  [
+   "住所",
+   "鹿児島県鹿児島市荒田2丁目57-6 1F"
+  ],
+  [
+   "営業時間",
+   "11:00〜17:00（ランチ・カフェ）／18:00〜22:00（ディナー）<br>日曜は11:00〜22:00、火曜のランチは12:00から"
+  ],
+  [
+   "定休日",
+   "木曜日"
+  ],
+  [
+   "ご利用",
+   "ランチはコース（1,500円から）"
+  ]
+ ],
+ "link": "https://www.instagram.com/caffe_ordinario",
+ "map_q": "Caffe Ordinario 鹿児島市荒田2丁目57-6",
+ "address": "鹿児島県鹿児島市荒田2丁目57-6 1F",
+ "vars": {
+  "sea": "#4a5b4f",
+  "sand": "#f8f6f0",
+  "ink": "#252a26",
+  "sub": "#646b62",
+  "accent": "#c4572e",
+  "line": "#e5e0d4"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLdaYgTj64XVZ-4sgzPNC91KGUKJLThFbDg_9ECZ8YJFDQBCOl0_DEAE2YWKZsdMIADTzfxxxBzjZPqQXr_SbpeYaP1JfiCePF-K0xKEaugehgsmYBpAqdK9rpD4V61LA7dI94k",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLe970ukuYsgl52naHsfLgPjwJ_kP9E3URkF7LjrwNJ7WsEQvR83dtqTYolJvvLW2LxklyHnOsOvja7c--2-qwHBL2gK5MnuReeGtI2d6ZkB2M_dHFajuIVWphTaQ-xodihvQqCz",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLc81lPuKzKaSwsLiXDX0gP_iIEZ64JRmdjb68_x7YSSkO_xp6csBeadbfPY-O71In43_3A1soXeFudqGXuRS8cWllmjYUElLXuvIB3RB6JvHBtw6fdxuRp6T5fRUbofIcZqux5vCw",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLdkJeU0JrAXcY_8qcIM98Vs5CGvEz5SNYy81eyf3zkE1HqNqq4cnyfwrCkj3h1tnlBDSK6XNaU4aXVPOuGzpRTtbHdg3UoFMm4f1fzdVx7pvFxOKjjYPWBFXRHOrukpLzLZ0y9C",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLetO_a7zJl7CLqhgWGgBEeTZaITY5sg-CWo7Z19DobbsQos-Z397Hu_jOoXpasWJmyCxF9EwwJXgXxjIcHl-uue4SmF-IQmzmj9VnbeIBZHctBgI2vr5iTAWQPRwKtRsB85p8b3CvCbWzE",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTrOE7gyLQ5AZ2edcRrMNuBHGXeWVI6-5LMLTFw45ncK1GQwKQ8uTozXsaGFjMaMecKWfw-FafdvwBZkD3yQdWSXYN-MO2iIBFlBTuk3aTeDfuwYu8YicNq5U4KaEnDbk7y6oaeEiTH7fj",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLe30ebalILOv3WsagzYiZkldgeuJM5UuMbxEGvRoX2ISP0eweZ3ihnqHcR4TRHIZvsE_9S7txIuDE1bINCAEZTNYWCgTPAn05f8MQIHE2Lf2AQiC0ZJM6zyJiPfSeSMiZSoYagyD0oeyA0v",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTTMhcHDW_XIstvykLIa-bOQfOX-LOzLN3-CJNHv8YsHL7D_bMOnXaF_hAlyw8gHN-umgWThjl30MaUBwJx8u8mri4FK9f5D5IFQ9vSS-XqE_9hpavtVw1Gz4lpNjm9H3zA4AxvP54N3mM",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLchN0qT5LP31L77XlAH0RJ7DUDJQaXTJkf8DP_GDTEhUWChQGL0lAb7yqUaWxDQLBpAafNQaimgdxVznwKahdvN9LEht4BU7EoQ9dfROW-rHFIqJD06oggIg9ZCVX5yaYvLOGKOsU5ikIvG",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLeAqtbFbaAv2mRTEokUX4AuLIUn3_Ekh2Pk1bg0w0Y8M8OkHQT73YOGdYDXtT_JfTBPjiniEPCDYeEgvMiy6a-k-mA--37rAkLjkNTNpfOXRpJ0pVGnjKMlEoMWySLdTL5LTZrurwCCKdo",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLcnV-0X9Ystr6_SGrrwi6s4wAbW_Lk2NEf2PCidMQOmlsdErdVRroaymvUvEFcTDTQ6QK7xffeohp-i4oCRAn69JbIZ2RikVDQkGstW0eOOZB6AYc0SGUiM5eTHtVR-6tf9a4nD8Q",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLdfync00g56XHUUN-kKPTY2XoGjbab30reVOyf2ROTv1pyjjl0t4kUR1WUgxz4alSz6c8EXYIMuEJ41nApwqol4lm8aBNn3aFzrlXsxbjR5v-vEFo3nluLJucOIjauYWs7zdrECuwJCSWJE"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

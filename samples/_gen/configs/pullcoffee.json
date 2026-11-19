@@ -1,0 +1,102 @@
+{
+ "slug": "pullcoffee",
+ "name": "Pull coffee",
+ "title": "鹿児島中央駅すぐそばの、トーストとコーヒーのカフェ",
+ "logo": "Pull coffee",
+ "logo_sub": "プル・コーヒー｜鹿児島 上之園町",
+ "h1": "トーストと、<br>ブラックラテを。",
+ "lede": "鹿児島中央駅のすぐそば、上之園町にあるカフェです。種類豊富なトーストや、コーヒー、季節のデザートを楽しめます。",
+ "rating": "4.3",
+ "reviews": "177",
+ "about_h2": "きれいで、<br>作業もはかどる店内。",
+ "about": [
+  "店内はとても清潔で、コンセントも多く、ちょっとした作業にも向いています。Wi-Fiもご利用いただけます。",
+  "テイクアウトもできます。お食事とのセットでドリンクを100円引きでご提供しています。"
+ ],
+ "points_h2": "Pull coffeeのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "ラテ",
+   "text": "ふんわりミルクの、やさしい味のラテ。"
+  },
+  {
+   "photo": "p2",
+   "title": "アフォガード",
+   "text": "コーヒーとアイスを一緒に楽しめる、人気のデザート。"
+  },
+  {
+   "photo": "p3",
+   "title": "フレンチトースト",
+   "text": "ふっくら焼き上げた、ボリュームのあるフレンチトースト。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Toast Menu</div><h2>トッピングを選ぶ、トーストの時間。</h2><p>トーストのトッピングは種類が豊富で、モーニングにもランチにもおすすめです。</p>",
+ "gallery_h2": "ドリンクとフード",
+ "voices": [
+  "ブラックラテは甘すぎず、ほのかな甘みにコーヒーの風味がしっかり効いていて、本当に美味しかったです。",
+  "店内はとても綺麗で清潔感があり、コンセントも多くて作業がはかどりました。期間限定のハロウィンワッフルもいただきました。",
+  "トーストのトッピングの種類が豊富で、何にしようか迷ってしまいます。"
+ ],
+ "info": [
+  [
+   "店名",
+   "Pull coffee（プル・コーヒー）"
+  ],
+  [
+   "住所",
+   "鹿児島県鹿児島市上之園町3-1 NAGAYA TOWER 1F"
+  ],
+  [
+   "営業時間",
+   "9:00〜17:30（L.O.17:00）"
+  ],
+  [
+   "定休日",
+   "Instagramでご案内"
+  ],
+  [
+   "その他",
+   "テイクアウト可・Wi-Fiあり"
+  ]
+ ],
+ "link": "https://www.instagram.com/pull_coffee",
+ "map_q": "Pull coffee 鹿児島市上之園町3-1",
+ "address": "鹿児島県鹿児島市上之園町3-1 NAGAYA TOWER 1F",
+ "vars": {
+  "sea": "#3b4a3f",
+  "sand": "#f7f4ee",
+  "ink": "#22281f",
+  "sub": "#5f675c",
+  "accent": "#8a6d3b",
+  "line": "#e3ddd0"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJIJtvwT0XkrVYjLyRh6fsL4mJKx-D3xga65L_X404Cv8bEBxFd139GfbJDMeEn9ykkVtrtgtxpp-tlaqCqnokxARedspU6vQrPeyfdc2lhQ8izin6_i-cbKTcHlKYqWoHy_w89n7Ci8PY",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLdt11S3bOYXWHRBPjIYyfaMjZZDOOULnZup2SAS6sZi6HYsT5TFtv8uUvib9wVIehGCgx7Ezn9qGMyqDuv6gOryFLfEGaFRpbfFU0J6hk3igJbBo-VRy6TD_8rftwkSMM-9u6fTGrqSw2QU",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLejBVe8Spp2-gDK6tPk3uqqMgDhsPZaBbXB0oqjiK5GmpvzTEA2jjRcNMsLDsNPm_svWea7XjIUIHSzU84zCUAnaxSBPT2IUuUxwnZ_BojrJe-jN0cTZiQj9IO3m0kjZ9h-3-GOzsAdAJob",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJlKyVHl1dp0wx7qD1GgpLwCe1IkW_KVoCuAfz0-TSejmaTL6teU8lLm5sT3C-cSAMNGQeOUdGmYeXZrZZjZ6jIf07GVZltBJ_bmnxdy1AzzeCBy5SPWLytGFvCEot7x3hEOsv8EuyoUqN",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLdE2eaqBaR7I-YZXAj0EV9gMyC6HwuNtH_S0NAZqGze7lGBqCklstvZM0divVvgquE62lsENyN3rSt5yXkxKs8EeuwD_u7s7O_JaCK-WFEUrpksjtUOXthM_dEVmSyDo5AxEwzmEWMLQCqb",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLeN1dLXr8o0EKoTYpGCjUVdyVG3E83CwV-LKWdSAPHDNks9jo_mLTONllxnpcEz5VmgXcJq40_QvxelvRm5YXbkTfhUIfDOw9YUlApJuTQFI9kw5OkTJiIRgkwPczapAVbn4hOu",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLeQNkZES2bVzol2rIUFvE3ByErnXRQi4ji2JK8H_lYZNCkH1jEfRSs02mDJMirnrB95Cacoh-Ytn3-8p8VzKGasElPRxUtlaqE7rCApoii1nDV0In-rJiBb0Gd36kh6Gf7DdW-C",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLcRLIPxVkcs1c8uyXw_ExE5gCiH_6KfuUtmqllAAheHqcy4x42QUiSKO505M6W8w9YrWWHCg8t_0JjPKQPwoYOL4_Cd9vls8qKK7-YuxhFdtud3eZtgTmefPbRrDc9jjgxFjAQ",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLfC-qls959X_eYZjJc41ZnQI2Y0wqMUZdhyUn6eNYdV3P1zonylVcLsLmGmJkknUuvjIKnw5ToDC-YRw2quJ61OyTs5766gzKad0RJMc2_EDJKjwDGoWK9eHdKWN2QefL1BntQWZw",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLdxy-p97Ok1mNl42O4AB2o3cWmxzQ-pBuFqOFWPFGDE-IwurQ5jp3ei9QjlLOOq0LSG3tWoJKSlxvxsCxQj3R8x0Qq05_DJpRyans4qklWAYbyJ_hyK5qHCW0MiBs4cwE3tqH9ctw",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLefq8P-FjuvHI9pcLvPQr4-VhT320GMA8qMrbNz0kkC9Mowonu3C40jjJFXjxsG3xxVtDGNedfs-lwYdlpO9at62rapI3bhVzWWEwMHRuRyL6nDt0qhQgjlVXSiBs7v-B9fhIJkDYJwQTs",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLfQ9EkvPC2rsKm342sVa9dCrGLxQ0b7lGa0dWlfJdGGvwWbk2okeAtuFY8-p3o2dxVkvpJUY-9_Bm48E_iLGEYkWbyXS_8OQrdowNH8-kz7EdEOd7cOH4THaT8Pdwp4Y5nM9Sdilg"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

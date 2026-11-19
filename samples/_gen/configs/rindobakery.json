@@ -1,0 +1,102 @@
+{
+ "slug": "rindobakery",
+ "name": "リンドウベーカリー",
+ "title": "熊本市東区・長嶺西の、夫婦で営む小さなパン屋",
+ "logo": "Rindo Bakery",
+ "logo_sub": "リンドウ ベーカリー｜熊本 長嶺西",
+ "h1": "夫婦で焼き上げる、<br>小さなパン屋さん。",
+ "lede": "熊本市東区・長嶺西の農免道路沿いにあるパン屋です。ミルフィーユ食パンやメロン食パン、惣菜パンまで、毎日店頭にずらりと並びます。",
+ "rating": "4.5",
+ "reviews": "42",
+ "about_h2": "夫婦で営む、<br>あたたかな店内。",
+ "about": [
+  "ご夫婦で営む小さなパン屋さんです。木の棚にパンが並ぶ店内は、見ているだけで楽しくなります。",
+  "営業は10時から16時まで、完売次第の閉店です。店舗の前に駐車スペースがあります。"
+ ],
+ "points_h2": "リンドウベーカリーのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "食パン",
+   "text": "ふんわり焼き上げた、毎日食べたい食パン。"
+  },
+  {
+   "photo": "p2",
+   "title": "ミルフィーユ食パン",
+   "text": "一枚ずつはがして食べる楽しさがある、人気の食パン。"
+  },
+  {
+   "photo": "p3",
+   "title": "メロンパン",
+   "text": "表面がカリッと香ばしい、リンドウのメロンパン。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Rindo Bakery</div><h2>パンの並ぶ店内を、見るだけでも。</h2><p>惣菜パンから食パン、焼き菓子まで、選ぶのが楽しくなるお店です。</p>",
+ "gallery_h2": "パンとお店の様子",
+ "voices": [
+  "ミルフィーユ食パンは、一枚ずつはがして食べるのが楽しく、甘くてミルク感のある味わいでした。",
+  "メロン食パンとミルフィーユのパンを朝食にいただきました。どちらもとても美味しかったです。",
+  "店の前に駐車スペースがあり、お昼用の惣菜系のパンも選べて、ご夫婦のあたたかい雰囲気のお店でした。"
+ ],
+ "info": [
+  [
+   "店名",
+   "リンドウベーカリー"
+  ],
+  [
+   "住所",
+   "熊本県熊本市東区長嶺西1丁目6-106 レジデンス井島101"
+  ],
+  [
+   "営業時間",
+   "10:00〜16:00（完売次第終了）"
+  ],
+  [
+   "定休日",
+   "水曜日・日曜日・祝日ほか（Instagramでご案内）"
+  ],
+  [
+   "駐車場",
+   "店舗前にあり"
+  ]
+ ],
+ "link": "https://www.instagram.com/rindo_bakery",
+ "map_q": "リンドウベーカリー 熊本市東区長嶺西1丁目6-106",
+ "address": "熊本県熊本市東区長嶺西1丁目6-106 レジデンス井島101",
+ "vars": {
+  "sea": "#2c4a6b",
+  "sand": "#f8f4ec",
+  "ink": "#222a33",
+  "sub": "#5d6670",
+  "accent": "#d9822b",
+  "line": "#e4ddd0"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLfks12NUdyynb8IkTGv3_f3bAVz5CB8eeX-URcXTkjkw1JciFwD9L5iPvIsU8yVidqwYF0lSvTbdtAltC0AfUJ-2XmyOvd0v59gftV0u4VTuXBbyR_dpI60BHLwzm_dwTWyl4bSyA",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-mns8Vn4CcoA0R4wN5raY5xdGnse94zcLUMyTMYTory6_8W4so79hqwLlQQOmuCbGNiAiIrOK6iK2NAeLV8O8AuU8LvzpRSQCC407JZ2FfK0AUvFK1rGgdjD6-CV2WsUsf_e2cg",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjyRzV6JhZVNFnBLkJcnkEEbPOBnI2dfqsg6NuJO0tImAYFETsTjKOTJfjRih9Q-dm2sMQI0wYuW-u-wATHf_9PrpNVORgt_TdasjiRkQABNr3qU8eqbvnW7OxMV5WyObbZZbz",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_dlU7OjC5ROfFNl5w-lk_I98nPCyKxKS5EIBCRmo0kPhEV6jJNk1XL9AkIhk9_8h9VKGeegnHLVYWa032BysGxl37KnIyiviLBlQeqLPang1gRAJryHzuM2i9hHbEkFX0OwIKgw",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLem8SGXAHFWTMZaJ-P18AQ5cHlJsmHRZztetPrZNTXdofmDz7-vgg5lUkLkO6WCuLRDAET-LKMctgoFCSkL6DvxRftQHyvieTkJTfQMbA_7TloHUPSb2lmTp-w-nXZYvsrus_DKY8TTMBB0",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhza3V6qMAHg9d52pXJEp5nNYN5IwFHKYgUQVnEZQJbbe61wqPD3r96jO4m9aHvXd5-UtAW4cSKHfhGmnTpRp2ETmzl8X20-ac4TDWELFAqtRpYQi552tJRA1DVsJBUytQ9MqN",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLe0cKitllqJJJewXNW3bsizRlfi7dwquKzm-m2OWzVW6cT205JKRaGif3_SRePrSNNdd3-kf0XiSwyn-hCSCawYev2BmoZx-264C55kZ8r4Al4BN_4upErTWLveWdl3_8mo2aEC",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyFCxfYAV1gPAzC6YEDg9heRQXbhrPNQipl5sz_VkPMHz5y4twU7UunLqsUa_is6AKmbU4sKdDa4OFbL87DaCJh0lWBz2gYbYqVa0OoTEQHTGu71nMT01jzFF-vcFrJ-ci96eXjA",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8ALrkdakULeE13YRlRjhz3x678FiVO9ksbeJxkljE8sTPlFqv-MqXr11CW0iM_mby1hLeH3mZF-rKPDaprKxsn9UcIwW6efx8aodZyGNjYXhc8-dNXPdwZqdeWU5iZgN9wkU",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLeQ2TO81fywqoCmfnJ7dlxrS6QBP1D5sbwbruj0cKp-tjxZI90GFC2nYZhJbe6vgqioGClU-KZ6stQk3LTloGyRpvCkm5fPWHLZ37SSQ77mSJJTG1Kfkm5AUc6tNeAvf5hsBGY",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLe__RvUp2KoJs-hCWbo53YnnQTxpiFocIj8uDe8X_RAbuRcMMZ4TIiqYTBMBvHTxi6j9svj5PmEh3gQHpnObCL7sItnnZ_Oj-bL_B9G8acetUlGaWSJY2FFF2sPZ4TzHJvQUL3i_7cXyKmB",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLceFLoP4RZcP0iMSVM2lEbfw7AJfshMJ6qtBvVJrdnd0nlGzZX5nyBBAXhfsaLO7guRPvWtfO0LDSPzpyXMHPjZa8mBIaqVWaYDaGmmnQn0c0ai-Asoc7qyXAacQEALkNqraLRF"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

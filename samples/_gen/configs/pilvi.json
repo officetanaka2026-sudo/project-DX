@@ -1,0 +1,102 @@
+{
+ "slug": "pilvi",
+ "name": "Pilvi",
+ "title": "松江・寺町の、ベーグルとスコーンと焼き菓子のお店",
+ "logo": "Pilvi",
+ "logo_sub": "ピルヴィ｜松江 寺町",
+ "h1": "ベーグルと、スコーンと、<br>焼き菓子。",
+ "lede": "松江市寺町にある、ベーグルサンドやスコーン、キャロットケーキなどの焼き菓子のお店です。イートインもできます。",
+ "rating": "4.5",
+ "reviews": "82",
+ "about_h2": "ゆっくり過ごせる、<br>イートインも。",
+ "about": [
+  "ベーグルやスコーン、焼き菓子、パンが、ショーケースとカウンターに並びます。",
+  "お店でのイートインもでき、サンドイッチの予約も承っています。"
+ ],
+ "points_h2": "Pilviのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "ベーグルサンド",
+   "text": "具材をたっぷり挟んだ、食べごたえのあるベーグルサンド。"
+  },
+  {
+   "photo": "p2",
+   "title": "スコーン",
+   "text": "クリームをはさんだ、スコーンのサンド。"
+  },
+  {
+   "photo": "p3",
+   "title": "焼き菓子",
+   "text": "キャロットケーキなど、日常に寄り添う焼き菓子。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Pilvi</div><h2>ベーグルが、ずらり。</h2><p>焼きたてのベーグルやスコーンが、お店に並びます。</p>",
+ "gallery_h2": "お店の味",
+ "voices": [
+  "生ハムとノワゼットバターのベーグルサンドが、とびきり美味しかったです。",
+  "キャロットケーキはボリュームがあり、食べごたえがありました。",
+  "ビスケットサンドも絶品で、全国レベルの美味しさです。"
+ ],
+ "info": [
+  [
+   "店名",
+   "Pilvi（ピルヴィ）"
+  ],
+  [
+   "住所",
+   "島根県松江市寺町156"
+  ],
+  [
+   "営業時間",
+   "火〜土 11:00〜18:00"
+  ],
+  [
+   "定休日",
+   "日曜日・月曜日"
+  ],
+  [
+   "イートイン",
+   "可"
+  ]
+ ],
+ "link": "https://www.instagram.com/pilvi_bakes",
+ "map_q": "Pilvi 松江市寺町156",
+ "address": "島根県松江市寺町156",
+ "vars": {
+  "sea": "#2f3b45",
+  "sand": "#f6f3ee",
+  "ink": "#1f2830",
+  "sub": "#5f6a72",
+  "accent": "#b8703a",
+  "line": "#e3ddd2"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2dI56_n-7QUyTC1yZn59RboH9l6C2CJbWaDQB1mJX76aZlacp94E6yK3I-97jBalS3VtiixqboUOnRm1dzXLJXZ9AMtw7QlS3sASVY0S7DMtz2gA_pWg8LXrPAvI9eu1SBX1n8oYqs4QE",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLdFUHxK0DckvJuN5DGVxr3B1wqkrnNqizXQ_5kOQNtDYIOtj2QrH_hCooa19XRVmVaXsPWU-aIYBXdYJ-F6is3f3A9JPcQfc1lu8fgaT_K63Ls0x8LKeOrW8NRzQl4zX5a4zAld9Q",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLeQw0zfaeFpgYrv8AI_bC-UDopTDIXGCWtzr8kTpCC1WBHLB-LSxSWIlCWp4CHsXbs18uwpqnJ27ICMf9By3tdAidOIrciuY4tnu-ibEfuICQLmaebLcFRHQrPcbY82hpu0qrBwKA",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLcQq-ygIAF_2rQVeiQonp_rBAfe-VxptuH2nNuL2ZkOMNpFdzV4XLGqoRFNTFF4CnMHiIUsToNVbQyqgNhmUnhf3IkGX1kFGnMXfGsFoObPFnmMhsErbzgLHwTwBTr4ub2HgF8",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLfFu5WJ1IilJLA3GTUAc7QNQ7vc85F0coxRs8_5yYfSG40pnholT3blc45uN6rL3JpWa-U6uYYioGUIKjJrAEJQmTdM6QAvobUwPF-66gTD6WUxRzRUWqqVoWOYpxbUZ7ZQW23-",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuRwLZjE6us9lH5ADcBR1CeCULfuMoA97qlXINwwFH97GxVq6-S3csgsE2l-1qFy6ikS6zgq_bZdBOVYcCti_osrWa78BjgEFZ8TS7K3osPbm7l2gWkUUXAR5PES6hSwRuITXd",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLeGBHosvWShE0eGVa1tJZGEBJGuRvvL5gisRcRgHgAW7OfT_HH52HOiyANlwIkTooU0mm5JLHtWXmoLJLCGdWDFMw8oWch0d820hTzopKSGvIgfNzRo4WF0X532OhC-wu2-vBeO",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLf5Eo5zbRibRW1YSulwv2tMNMpV7e7rB_tI5NdMIA2MQYckkVjIv6_hR3ykXbA8rvepTCtSp7xikX68cdAK-MN8scvM-bjRtvK2BNJCSP_yVlY2IS6t48xBvIfsIcngkXkJkW2cFw",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6nw9I8ADCL0SXPdAcr88WOIP6-_alOu_zLPUy-4WBFiy_09tMpcFJFKNj_fqlCq6_TrEv15gyFm_00vLBug6yx2pKtGkce98v_PDl8YZaezNm6FAnzhizJr6RFOfZo7JcP1MiQA",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLdBjB8IMqGfyVWMr3y_VFnd2JcHSBphyq5BMO5Gn7p8hvHMa6oxwNkHvm-OCkjGKUvaYyKqCrdVdDPe283SCYrSUSV39kxbft53YS5b1Vi-cz0FevRwy_qDxP5KAnZrQXAiPDoB",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_h8ItWNWjYAXOMn6wN-CrpqJOxB0rS0gAm0n495Ku573PersxaDNVQLmOPKLKleT6wXXHhsHF8L0GfxO5I_O907xxKlbDOri_MN5PFpUlIsaf6t5aTJPzKKPXYC4x_022uOF-",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2dI56_n-7QUyTC1yZn59RboH9l6C2CJbWaDQB1mJX76aZlacp94E6yK3I-97jBalS3VtiixqboUOnRm1dzXLJXZ9AMtw7QlS3sASVY0S7DMtz2gA_pWg8LXrPAvI9eu1SBX1n8oYqs4QE"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

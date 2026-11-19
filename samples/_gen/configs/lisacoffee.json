@@ -1,0 +1,102 @@
+{
+ "slug": "lisacoffee",
+ "name": "LiSA COFFEE STAND",
+ "title": "鹿児島・名山町の、エスプレッソとスイーツのコーヒースタンド",
+ "logo": "LiSA COFFEE STAND",
+ "logo_sub": "リサ コーヒースタンド｜鹿児島 名山町",
+ "h1": "エスプレッソと、<br>かわいいスイーツを。",
+ "lede": "鹿児島市名山町にあるコーヒースタンドです。こだわりのコーヒーとスイーツを、テイクアウトでも店内でも気軽に楽しめます。",
+ "rating": "4.6",
+ "reviews": "32",
+ "about_h2": "小さくて居心地のいい、<br>隠れ家のような店内。",
+ "about": [
+  "店内のイートインは1〜3名さま向けの、こぢんまりとしたスペースです。お一人でもゆっくり過ごせます。",
+  "市役所前電停から徒歩2分。お車の方は、周辺のコインパーキングをご利用ください。"
+ ],
+ "points_h2": "LiSA COFFEE STANDのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "エスプレッソシェイク",
+   "text": "エスプレッソとアイスのバランスが絶妙な、人気のドリンク。"
+  },
+  {
+   "photo": "p2",
+   "title": "コーヒーゼリーのデザート",
+   "text": "酸味と苦味のバランスが良い、ゼリーを使ったデザート。"
+  },
+  {
+   "photo": "p3",
+   "title": "ケーキと抹茶ラテ",
+   "text": "季節のケーキとあわせて楽しめる、やさしい味の抹茶ラテ。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Coffee &amp; Sweets</div><h2>季節ごとの、楽しみがあるお店。</h2><p>季節限定のデザートやドリンクもあり、通うたびに選ぶ楽しみがあります。</p>",
+ "gallery_h2": "ドリンクとお店の様子",
+ "voices": [
+  "エスプレッソシェイクのキャラメルソースは、エスプレッソがとても美味しく、アイスの甘さとのバランスが絶妙でした。",
+  "コーヒーゼリーは、酸味も苦味もちょうどよく、とても美味しかったです。",
+  "小さくて可愛らしい隠れ家のようなカフェで、季節限定のデザートやドリンクも選べます。お店の方もとても優しかったです。"
+ ],
+ "info": [
+  [
+   "店名",
+   "LiSA COFFEE STAND（リサ コーヒースタンド）"
+  ],
+  [
+   "住所",
+   "鹿児島県鹿児島市名山町3-8"
+  ],
+  [
+   "営業時間",
+   "11:00〜17:00"
+  ],
+  [
+   "定休日",
+   "日曜日・水曜日・木曜日"
+  ],
+  [
+   "アクセス",
+   "市役所前電停から徒歩2分"
+  ]
+ ],
+ "link": "https://www.instagram.com/lisacoffeestand_meizan",
+ "map_q": "LiSA COFFEE STAND 鹿児島市名山町3-8",
+ "address": "鹿児島県鹿児島市名山町3-8",
+ "vars": {
+  "sea": "#7a3b3b",
+  "sand": "#faf5ef",
+  "ink": "#2b2322",
+  "sub": "#6b5f5b",
+  "accent": "#c0392b",
+  "line": "#eadfd6"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QtxKwRFpY57-IqycEs396-NsmXibwk0RNNxJ5IhyU6sU5HEoIvGWSoA6PaXZ08k_gXwo0QfvXyUQ7W70-rfrzPZJl7IsApF8zo36JEOkCgmQTzhx8-q_yWvP6vgp36LtKrXLBZ",
+  "inside": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QqmJfnE45a1U5YxP1a3zqxOY01dWDjrbSuCMaJNj5VgwyFvj3kmLBzFOw8ShcXlnNiYm4fGxWb_E4S0esItj2_cATPK-IOp7xSQWbd-__5djRZkKv-X8rb4SDjkDypR_Qchc0ofrnrEsoA",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLe0LIgK0AfzDZz20z4hG1fbZBvRBHYKyUJIjAVlfOuYARHdxDRd9lNDTdBGjPRZRhtqJsqL4abIxFMyodVPyI0yshAy-O-Gr6zOaCdhgxCfywxPgvoB7LXRLot-Fkbzvg66NoSE3erDD6g5",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLc224Bu6pkTuc0ikP13qG0zriTIkm1MYd7XbXsyqMZjkQFRjwIFNV3GCPVI8lcy1jImnrF2-R01ydGv6wtcu5MXiYuWSRroemY0GWln6nsdgQKIj-JKDMEGINtnd4qGkHWMo80",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLfaJc6v8GEApjLZMPU0g19pQ8XkRs_35o8mHwEtOJmtpgVQORkj0nNccNo8ycQ6I5ApPYMZo1m7L28vKr6UZ5zhGXPJC-yI2AhWMDjG5oYuyOU81VLP5wv9b4bFH9CihbtmASngKEfpgUI",
+  "wide": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RHwfu8uyTi1jvRULeoJWP1hHhx-aY0ad6qlnURQPXS42-PCqlCDGfaN8XSAwtpGRS92wiOyg8l0rMQ_CgFsvZSNS0xcMB8p3QNQEqeC3AxYPQWoSGTSsGbJGBrfoRNM_qLupsm",
+  "g1": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SyyT2MpBGmapzfSsTYlPztHeTfP-lgz0pwjhH-CybTWRk5KHIZO-aWyDMmEok0xflGe0cTswyZ_jk0Wm_PdSuLRi1mrUqOJvOaQfc_KCMOF1j2vXvJtWuW2mwAGYzhP6R4a268UHkswsA",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_Hk3lYkUStRKHX-YlnOGpZlBzHJPoevCR6tbcpehbV-aKSkZ7NjAI3RevgvK9cKAON4XcEpQAnoBA3IsFmEJUNVWLhevrdoS62vzfDXQBsZzR9yNn6rzJvIkFEdrbNSZq_vM_IVM02hNG",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6RDzDtIb8eOV--nEsbd3aKTYFIRxx1kuP_DDMYns8LZADeaj3aUz_nwNjpen5fWw7aEHqKguTOMar-ChNRJchzsdnZC7IC_yH6R5c7FweZTy4ISuNLVWQuc-6_O4w1btdEjMuTnegFlpF",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKhSM0oChwP_4aZT_B5VTNJIkwRBW6HsiNWeR59IYaxyzwvCFSR8_YJkXx4pkWr9_oKggyLNGDypP6kJzvntdhmKHvOKC6iAlZfvF9PKXUY-PucE9tI1AIloVN8FpoWSo0nw",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLdxzPz0MWbtt5e2iHxdI0BTYqDYD2Xej3LzzXLgQ_Cn7-qJTAkNnWFDvIgkYpKlRfvhOTA1iJJk1eQCa3J3xdWpaTnZBxffG30ePXJ6EVXPlCmpPgQ5hO6Yl1s_mBsHkdnE6Gg",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ0E0AdQqI6Y4mBxngmEADHsMdpcaf7yloDsDcFGP0G-2A23j9Lelv30XCIDSOjZPE8bg_SEIN2SHlhSyY2DbKfzG4qV0XP2UdkAEjXbR8ROknRztdRwZGCDlvIfbVoEHEM3WgiQ"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

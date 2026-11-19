@@ -1,0 +1,98 @@
+{
+ "slug": "konjoneko",
+ "name": "Bake Shop Konjoneko",
+ "title": "松江・西川津の、かわいい猫のパンが並ぶベーカリー",
+ "logo": "Bake Shop Konjoneko",
+ "logo_sub": "ベイクショップ コンジョネコ｜松江 西川津",
+ "h1": "かわいい猫のパンと、<br>毎日のパン。",
+ "lede": "松江市西川津町にあるベーカリーです。猫のパンやカレーパン、ピロシキ、クッキーなど、種類豊富なパンが並びます。",
+ "rating": "4.6",
+ "reviews": "30",
+ "about_h2": "見ているだけで、<br>楽しいお店。",
+ "about": [
+  "ケーキ屋さんのようなショーケースに、かわいいパンが並びます。",
+  "無添加のパンもあり、お子さまにも安心です。営業日は火・水・金・土曜日です。"
+ ],
+ "points_h2": "Konjonekoのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "猫のパン",
+   "text": "見た目もかわいい、猫の顔のパン。"
+  },
+  {
+   "photo": "p2",
+   "title": "たまごのパン",
+   "text": "たまごをたっぷり挟んだ、やさしい味のパン。"
+  },
+  {
+   "photo": "p3",
+   "title": "野菜のパン",
+   "text": "彩りのよい野菜をのせた、お惣菜系のパン。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Bake Shop Konjoneko</div><h2>かわいいパンが、ずらり。</h2><p>パンの一覧表もあり、選ぶ時間も楽しめます。</p>",
+ "gallery_h2": "パンとお店の様子",
+ "voices": [
+  "可愛いだけじゃなくて、味も好みでした。",
+  "ピロシキやカレーパン、クリームパンなど、気になるパンがたくさんあります。",
+  "無添加のパンもあり、子供にもあげやすくて助かります。"
+ ],
+ "info": [
+  [
+   "店名",
+   "Bake Shop Konjoneko（ベイクショップ コンジョネコ）"
+  ],
+  [
+   "住所",
+   "島根県松江市西川津町635-2 コーポ3ポイント 104"
+  ],
+  [
+   "営業時間",
+   "11:00〜17:00（火・水・金・土）"
+  ],
+  [
+   "定休日",
+   "日曜日・月曜日・木曜日"
+  ]
+ ],
+ "link": "https://www.instagram.com/konjoneko23",
+ "map_q": "Bake Shop Konjoneko 松江市西川津町635-2",
+ "address": "島根県松江市西川津町635-2 コーポ3ポイント 104",
+ "vars": {
+  "sea": "#4a3a30",
+  "sand": "#fbf4ea",
+  "ink": "#2e2218",
+  "sub": "#706052",
+  "accent": "#d07a3a",
+  "line": "#ecdfc9"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLdBW9hIt-qrJtWtLC-wIrxkx30Rdv0p5poZTqs2cNUQ8WTPheVHpGTqKj0pVJEmtZYTK-yWi8XHQwQB57iZ1xTTOzcaGKeCkhbLUmv3Eh8HR9cXaTAwCpCUHt55MRg2jkZE5-vw",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2C0I_7ochYxJ6ojryeJ89bo-JrcVSTPopxWNC6ZI9neETYOJOOObjJkyzHJYmWKHtRo-lvR_moqOYfhN4fS2_dxh2A-P001HLSaMKhM4QmA5O8I4k_YjgrFpXdOkcATT15Fu3",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2KCWkoFfFSNoOOHUeJmbDev2ah_elnPTQ4Vd6-os1934_FBzLDbmrmM_vIQp_4_B5D79CL59pt1HMzmOA2l9LdXFE1r4NYK4UpWpPsJA2PKU7C8Mqxjrt2v-TK8MHAH7m166eKA",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLe5iUUT_Lopqw_CafIM-0xdwlpo6fDcjBp4EcyZxP0Ijh1GGmSAOaPOaUwHp_2iwlHc0JLyMoDmVCJBPWT0ut8GQJBmf0PMImeu4B9a8twL5IWpPvwj9Pm5ZdKV4rPFv9SROVjh",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJs1yInbJGme5m482SQQjMLZvTDIERkGUhFQDzetduXcQiXUXjgsf7lA8ItCFXnSvZ9U6-cIkQe9_AUttQFRnVLZQ5-cFH1_A8FKDtfXo9DCRpxVdmPuSSoFYpf25U9JJsu6Q",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLdMHpoeFtKFkuhvmWR6ik0fNoLbVhauEX8UUcbKUIWYqILR1SIvNfk2C7aLe4gbBUJTUmgP4QmK5hEUv9GIb6MQw5bHbM7e47StS5ub1hW0_0T8dOgSi_KJ8C8YBrk76AMXe-cT",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLegFg21FIDghGsSrUkQTMr29MeTuWKeW5OfCkU3Hz57W3Ln8RVSE7jXhFrCR1SeqOqHeWJkvd_EKf3F5qXBAWe980o08o0qzJbYh0uwzk7bj6H1NxxyBk73r9ukU3r87Dc_nSFyyg",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLfI874eMP5xdDLYEgq4secMIxBmwSYxUq-UsSMdKc_VFKPVeu-fWmlgGPvZcqgKPVIoKuVVtfvV98MDut-JT8Sr8YaeMRK2f3QKdkDs_NjFiFvVXyzEWyAEyiqFRg6EBx6ku3Dq",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3FrvwvYc2GC0k3TtHP4ZJsJzKJn8UId28VQGwaednYMXJHP8UiVQXcwYG3b6npfh-9__EmyF5uLdivyVPQiBZravJjEbiBTOQHb32MFhMvps8wpCt0YjkSVPIiQ4HJNEr2BnR",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQ49p_71RAzWbS9V11GeM9Fnd_4VLi3gedyphLQDL76TOMG7RO1xRcIkDDcq9l6ope2c8R9KuWSXNnGkXeaLR1qZmKvyNEPZM8xaGzsT_a0kJRHN4GxhfpwZuLF4dxnGAOnvE3",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKpC3phJ4QgqTNb6ZYACxwu8VIPpqzHz8StPPsnI7qivQHCKE-uUUG1-8zcSkb-aEXkzJ5rmjRT7oSWxBuQHJ6wB7_xUIaK-jimRUx4PmpMZCT70c_gn1CYw8pHkYbBC3RJt-YDhRvFQeT",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLexpcmcBUq_Rf70MriEKj_O-5FLksdmaTJfP6FFBYsTwNF4iq3BR7ntjwuex-FK-U2ka6mjkBvXvucapL3lwt1HjBp9XTCSdDeqmom_grZBZlxU7CAaiyseW3GmTEU01NWc7TYiew"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

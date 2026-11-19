@@ -1,0 +1,102 @@
+{
+ "slug": "logickanazawa",
+ "name": "logic",
+ "title": "金沢・広坂の、コーヒーとドーナツ、焼菓子のお店",
+ "logo": "logic",
+ "logo_sub": "ロジック｜金沢 広坂",
+ "h1": "コーヒーと、<br>ドーナツのお店。",
+ "lede": "金沢21世紀美術館のすぐ近く、広坂にあるコーヒーとドーナツのお店です。ショーケースにおしゃれなドーナツと焼菓子が並びます。",
+ "rating": "4.3",
+ "reviews": "270",
+ "about_h2": "1階にも2階にも、<br>ゆっくりできる席。",
+ "about": [
+  "1階と2階にイートインスペースがあります。席を確保してから注文するスタイルです。",
+  "専用の駐車場はありませんので、周辺のコインパーキングをご利用ください。"
+ ],
+ "points_h2": "logicのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "ドーナツ",
+   "text": "小ぶりでサクッ、ふわふわの、見た目もかわいいドーナツ。"
+  },
+  {
+   "photo": "p2",
+   "title": "ドーナツとドリンクのセット",
+   "text": "ドーナツとあわせて、ドリンクもゆっくり楽しめます。"
+  },
+  {
+   "photo": "p3",
+   "title": "テイクアウト",
+   "text": "美術館へ向かう途中にも、気軽にテイクアウトできます。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Coffee &amp; Donuts</div><h2>選ぶ時間も、楽しいショーケース。</h2><p>おしゃれで可愛いドーナツがずらりと並び、どれにするか迷ってしまいます。</p>",
+ "gallery_h2": "ドーナツとドリンク",
+ "voices": [
+  "ショーケースに並んだドーナツはどれも見た目がおしゃれで可愛くて、選ぶ時間も楽しかったです。",
+  "ドーナツは小ぶりでサクッ、ふわふわで美味しく、店員さんも笑顔でテキパキと対応してくださり好印象でした。",
+  "21世紀美術館のすぐ近くで、観光の途中に立ち寄るのにもぴったりのお店でした。"
+ ],
+ "info": [
+  [
+   "店名",
+   "logic（ロジック）"
+  ],
+  [
+   "住所",
+   "石川県金沢市広坂1丁目2-13"
+  ],
+  [
+   "営業時間",
+   "10:00〜16:00"
+  ],
+  [
+   "定休日",
+   "Instagramでご案内"
+  ],
+  [
+   "駐車場",
+   "なし（周辺のコインパーキングをご利用ください）"
+  ]
+ ],
+ "link": "https://www.instagram.com/logic.kanazawa",
+ "map_q": "logic 金沢市広坂1丁目2-13",
+ "address": "石川県金沢市広坂1丁目2-13",
+ "vars": {
+  "sea": "#34393f",
+  "sand": "#f7f4ef",
+  "ink": "#22262b",
+  "sub": "#62666c",
+  "accent": "#d0662a",
+  "line": "#e4dfd6"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2o6YokPmbKEtG4ALOQ_AkucIx0JmZl9ed4cgA_DMFS8EiMsHedAEjrEJMZEB32pXbRN6M6lAaOgSImVzvYLw2fsESIo83xpTtuGV4SQPBMx1HFyRu1SGbQlCgYu3FqfPTHU6G",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZH75wMV7fxLCefbfSDRREictb9enQHl5AztKqdi23jY_h7QmKG_HIt7qkYi7KJD0Xevlj7w5HGVhplAfhohX7DmV0vvGf0MRHW_BovLVysvcqs8LSE5zEn2PItGwoW6rAS-czJc91fY8",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLdijcXhk00SSF7H8ZLIUPcWWlXbxomQFFj38OGeRc1pdbRnZC1Mbf8zi9_DbhJniVds81g5cFKURF_ATXNjj4ZEn33cfed1rXb6CLC-CKYeegPD36sLoh1fZT1hmh2_J1aHTglXreWMHfe4",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLfGJvlbWesFZy0sT-3VEXFgnl7JRNIixK2P0wXyFz8RIxQ6StNOO37XrcwLSHuiWNsaampRir-8vYcBEY2QWBrdAidAMwufoTDSmntr4gwwjQ3e8kXUholuVaSDpn9E_q5O0fIqLZKc1S4W",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLezdcHzEyhvuo56rX1_H78jd0cnw7VuFFtZT5hQZWH4nr27y0NW6sVfzOI8ZpHshdsdL6-1JWTSnGWD0neA8vTWxlkb76cBDMmGePRx8LDSLA2UXv3hjTm0pZlEB2NgweJvs5mD",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9d_ewBsDjt41bY38JRDGJRMaDAyZTPS59RKeBMkdiG1PBwgOOptu87AdQsrlFeMrzYQdQJVlJcdYMQcdz57s7mPnhKir5H8CmMGYFJr9MyC3BSbdNCGgyEKXhxR444bKpL3g9o3veOUFa",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLdOFgsfvfLpTuNrkbeHzYEFekofl_Zt9oCl0Q0-Bemctkt2kSpXXKrLJaD0un1ikBAviu7tk-RYWDBuFbxtVaBfnpL5zgmuZo1ONC22dUhHDiC0yPvyIt1L93YF9eWMaJjEJ7Z8rA",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqeuO1WIJOHxzI2kA0UUGRfpFMSUOQI7mTLnkIT7MrKGdHXdO-u0GujSOYlt0J5NMsWz8IT8oIFP4GpYEaff95Mqyms9nXuTqY9CUN-e94weSN56VMgaOjZIBHe2nSepIsG56S",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRlMw93z-87kWG3fCZZJajFOABlCf54cmKxSpW05zeTBY_Fr51FrnRNNnu1Q2E5i8D6fZ5XjeqLU4wa0z0xyPYIuHYMuvx0R3u9lP0fh_e5YQwGk7M-ScJOY2GKda7U-0O4e8",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLdf_Uu930unMq_X2FsohJ0bSjWT7DXfZC2HLEfRyCFyHFqGteiYbfTL3Jifo1X5ZwOTL5pTmTJHHcQwLh2Uav6O0o95pG4W0cbPRhGsVTFIBvHsVSVrTjKrPaUcVSXcMD5hiRQ",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQeVHFUAz_FS5G2x19bIfGL1rn6TCqobZmBgTQYDbjquEkVVsgOxG9RGXEo18_M2LVTpbojnpf4YwDLwag2IeJXu1QPeMJDX-J5d-10pbT2-Uf6nmn99EudZPlCYWHJ30Dgdp2WQ",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLex5Pl-w8jxDVKtv-CXCQXbsOW9Y1QHgEaS_mRPoari8aVzwTnvz72Dejz6uuJh3sm7b7C-Pyedlf-psLushyaW52mQHYMW0dhgLAKckvtHNqln63TWDUWORjpYsPBV1t6D-OoA"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

@@ -1,0 +1,102 @@
+{
+ "slug": "bakeryharu",
+ "name": "Bakery HARU",
+ "title": "金沢・窪の、ハード系のパンと食パンが並ぶパン屋",
+ "logo": "Bakery HARU",
+ "logo_sub": "ベーカリー ハル｜金沢 窪",
+ "h1": "ハード系のパンと、<br>あんバター。",
+ "lede": "金沢市窪にあるパン屋です。ハード系のパンや食パン、あんバターなど、毎日食べたくなるパンが並びます。",
+ "rating": "4.5",
+ "reviews": "57",
+ "about_h2": "毎日食べたい、<br>やさしいパン。",
+ "about": [
+  "ハード系のパンから食パン、菓子パンまで、種類豊富に並びます。",
+  "駐車場もあり、車でも立ち寄りやすいお店です。"
+ ],
+ "points_h2": "Bakery HARUのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "あんバター",
+   "text": "あんこたっぷりの、人気のあんバター。"
+  },
+  {
+   "photo": "p2",
+   "title": "アーモンドのパン",
+   "text": "アーモンドがのった、香ばしいパン。"
+  },
+  {
+   "photo": "p3",
+   "title": "ハード系のパン",
+   "text": "小麦の風味を感じられる、ハード系のパン。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">Bakery HARU</div><h2>焼きたてを、ずらりと。</h2><p>カウンターには、種類豊富なパンが並びます。</p>",
+ "gallery_h2": "パンとお店の様子",
+ "voices": [
+  "ハード系のパンが好きな方におすすめです。",
+  "食パンやあんバターが美味しく、また買いに行きたくなります。",
+  "駐車場があり、立ち寄りやすいお店です。"
+ ],
+ "info": [
+  [
+   "店名",
+   "Bakery HARU（ベーカリー ハル）"
+  ],
+  [
+   "住所",
+   "石川県金沢市窪7丁目281"
+  ],
+  [
+   "営業時間",
+   "10:00〜18:00"
+  ],
+  [
+   "定休日",
+   "日曜日"
+  ],
+  [
+   "駐車場",
+   "あり"
+  ]
+ ],
+ "link": "https://www.instagram.com/bakery_haru_kanazawa",
+ "map_q": "Bakery HARU 金沢市窪7丁目281",
+ "address": "石川県金沢市窪7丁目281",
+ "vars": {
+  "sea": "#3d4a3a",
+  "sand": "#f7f4ec",
+  "ink": "#242b22",
+  "sub": "#636a5f",
+  "accent": "#a8672e",
+  "line": "#e5e0d2"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSDWKKPYuqt3qc8mx1w3ryjSHHbwHEJkGg3zYrZ6g649HF2IRxDjxPp5knDCFe6cfXRxtaDpThFdcwjnfkmKRM2zRP785nMpcFiOrYTPYgiR7Xt7SuXd3ah7M2pxTgFFXF1wgKyw",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLeV2XDx_tAGh9DoWEkPvaFtWrAMhGvAjMyy6TEmzPHobxFFroLwBrkR-QsrO2itx3X0Jw9sNzgmBhHQVV0op8ylLdUDjoiOSWZRTSxkTRHF_0DR4dyn96pah_tUcZyr1NHqiQNXpQ",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLcI_6eYTMOOYv6Tx2XrPt8lNr6UBLxuph92eppyKxp6ePTLMXKvESu-LbSneAcIiMPXkiQkSgExhp9-epB_zSfcm2Eh5ZZpZ3nLfJ-xP3_ZHWfmvdSvrJtqEGYBjLhuyi5Eq35CLg",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAmO01TZ1FRS-jRzD4Pgi1YCzLp8CihhKDkHP5SsOyHZwMEHDua4ch8UuDqAJ9-_0WxNyLxydRvWexWLphCvzBNbKRrCXb6PczlODQK4SjWdr624hJQlb-r1S9z_ReI2GkI9v",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWvKheSpnLOf0C4ds8VveDWT3dzMkfpTv-a5BljLs76pvALNJZFQgmgcsHQyPmsWB7V3d_8pHzvzS9xTYlKxdzCvxT5zUo155kKrnEQ1I1v3AaHOKnK8C0rCmi8L_3avtGrv7e6w",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQByfkiso_mkDeqXL2m5spEcNI86V6shHbp8PcriE62PXzBS1c12aeHNg-hxk6LbhYdV_32IwGfedb409VtjSHOZLBEdgidYl9r0SDNoUXE7BP9ipZZKDQeMapeWngeV77yaZB9w",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLduqcS8AjPP2_w8HYd7ER4iLwxQWh-WDN3XZ3ncHK5xng2ML0gsfikmxfcStwSAVEQ4tOif9m969axPlgjvZorG5gjcv7JVnizPBnKk2IJDW_xYBigsoxAfq-7CuwdKt1LtK5xdB-8aadRa",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSUjmnRFuvM3pElMht-n-AHznujaJmnBQfoF4KYbcKjhxqA4Ep4llsoBujA4csbvtuRCQf1NgfP4vyW4uYU65iCL1oIZ5Ja_byw2UlLR_cvr8ga2dWwjgYTOQ1OkI5oPHZCBXT",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2hd9d-WcqdthTGTgfKFkkfQXLUN79eotXD6oEhzCiPJJ6T0n4_V3iYPUWzJKFzlodMf0o9zxVTas4V65NxdbgqdZz1bzgHO1WkwATmVCrYh2S-7KPN4d1lyTX3lS878DSg6cmFQut6eqa",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCBDvVbEHeZzwjlXu5joi96n6vq3pDVZ_qPusinp7hofmBAep-rUbn9y5wFCc7itpqoblLwaBFGJgtnGjSuDvAC9kahKF_OiM0WWHZJY15Rvo02E1rY2hC99mRjfy2xRQDXXphgAC6mSb8",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDy3sOQdk4HNq6D7mlZtvyn-Ncjp-dmzEtlzREtb8CW7LskKJTg2-Zq62tR0xmljd8ZIVj887AdR7sH9350fsnLDQD_zWTguLeJTfwi9tvo2U2QhHAdG5Xdp8ApLtsXe8nPY0m",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLeiVz6DI29KpAKJXRpr0VaS45_imkiFVy6iJBHu8g9jTh0NubgXybCwZ2rSmNRnRetp-OggEURozbA9l4bgncgvnebUsNB-YAzdLg6X1EuwQUDKQwvr_9y_s0ytsLeXVCBtGjNzkyYOCsI"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}

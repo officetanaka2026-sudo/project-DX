@@ -1,0 +1,102 @@
+{
+ "slug": "bakerytsumugi",
+ "name": "bakery tsumugi",
+ "title": "松江・浜乃木の、湯ごねドーナツが人気のパン屋",
+ "logo": "bakery tsumugi",
+ "logo_sub": "ベーカリー 紬麦｜松江 浜乃木",
+ "h1": "湯ごねドーナツと、<br>毎日のパン。",
+ "lede": "松江市浜乃木にあるパン屋です。ふわっもちっとした湯ごねドーナツや、あんぱん、カレーパンなどが並びます。",
+ "rating": "4.3",
+ "reviews": "34",
+ "about_h2": "小さくて、<br>人気のパン屋。",
+ "about": [
+  "江津から松江に移転した、小さなパン屋さんです。お客さんが絶えない人気のお店です。",
+  "駐車場は2台分あります。種類が少なくなる日もあるため、早めの時間がおすすめです。"
+ ],
+ "points_h2": "bakery tsumugiのおすすめ",
+ "points": [
+  {
+   "photo": "p1",
+   "title": "湯ごねドーナツ",
+   "text": "ふわっもちっとした食感の、やさしい甘さのドーナツ。"
+  },
+  {
+   "photo": "p2",
+   "title": "ベーグル",
+   "text": "あんこなどを合わせた、ベーグルのパン。"
+  },
+  {
+   "photo": "p3",
+   "title": "惣菜パン",
+   "text": "カレーパンなど、食事向きのパン。"
+  }
+ ],
+ "wide_text": "<div class=\"en\">bakery tsumugi</div><h2>種類豊富な、焼きたてのパン。</h2><p>あんぱんやグラタンパン、ドーナツなど、いろいろなパンが並びます。</p>",
+ "gallery_h2": "パンとお店の様子",
+ "voices": [
+  "湯ごねドーナツはとても柔らかく、ふわっもちっとした食感で、優しい甘みでした。",
+  "あんぱんはあんの甘さがちょうど良く、美味しかったです。",
+  "小さなお店ですが、お客さんが途切れず、丁寧な対応でした。"
+ ],
+ "info": [
+  [
+   "店名",
+   "bakery tsumugi（ベーカリー 紬麦）"
+  ],
+  [
+   "住所",
+   "島根県松江市浜乃木2丁目8-26"
+  ],
+  [
+   "営業時間",
+   "水〜土 11:00〜17:00／日 11:00〜16:00"
+  ],
+  [
+   "定休日",
+   "月曜日・火曜日"
+  ],
+  [
+   "駐車場",
+   "2台"
+  ]
+ ],
+ "link": "https://www.instagram.com/bakery_tsumugi",
+ "map_q": "bakery tsumugi 松江市浜乃木2丁目8-26",
+ "address": "島根県松江市浜乃木2丁目8-26",
+ "vars": {
+  "sea": "#3b3226",
+  "sand": "#f9f4ea",
+  "ink": "#2a2218",
+  "sub": "#6b6154",
+  "accent": "#c0702b",
+  "line": "#eadfca"
+ },
+ "photos": {
+  "hero": "https://lh3.googleusercontent.com/grass-cs/AABkmLd9JHiXXDISKw7bUjtNzPkMX7LijffCVo4t2_TCDmQZnFOp81XpdbqxLgRNBBSLUVbWYJUK_xKqOzCSOFhYSTrMZxCrnhxRfc2UvljtVey5_Cgpf4A68uPbTuAox2HaY2N1jj3yJoPOeLEc",
+  "inside": "https://lh3.googleusercontent.com/grass-cs/AABkmLd9zbnaKymmM1RlfzC7XL0Vojp2kexbKOktCcILSRq7Fz6NJTK7Ko9S0FsyJH8bPcnGeUp78Wdc8f4wNW0bqhm6SDux-sAXz1fKiokFP7kJ6elHilUpGY9vtXqtlHh14-GugOrJrCZO8bI",
+  "p1": "https://lh3.googleusercontent.com/grass-cs/AABkmLcsCa8TG9igXcSog7X5jjv00p4g6td0Q6JZNhCdX5feV1gML6KbadCqPqXFL7JovAsli4tHjEVHmiGAmX0tm2lpHjcyWULUYHbaqPTHLoxvjAIF3msAmOKnrQHUhtW42ZfavKuPHnIHSuBE",
+  "p2": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyHNd9Y1gkAUCL5ayloTJf0KoSYRbgLyOVnW6NL8dMMiV_wfpLLysWo53OwhOJn6dl3-evngjHqnP6k0r6G5C_jGRClbDOqvdzw-zNDHowpt9kGnN9_JozsRSxqTTOdh3kMPAGQ2kVQ2Y",
+  "p3": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnWU6l5GLzCs071HUAq7N1BtAYJSLvw5K7kRS0wGrXZI5r6oKp4P7MCFHN97jHubxUpWl8y95ZKBc9jK8F9E1ProQHflJtXki7jm3seuWoo9VGSHitSb0lyZdirKFwdiJA3ix9Vxh5yu_T",
+  "wide": "https://lh3.googleusercontent.com/grass-cs/AABkmLfF3c4Khr2_cQZzPquqbcE_9fyaJyWdqqd4AJKmLxg_GO36BYl_IjNWOUDr6dmXEYOajYbd57POJs5oDOxTCyED81ZW8wLuzrChimhUtu3sfY19qeWXwi8wnb0I1iqyU5tISwsyKPL3ljFn",
+  "g1": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTHwxMgcxz6rhLYVWkQUd8WOashgOSrmgq667c_gC44UZZGqdKjUiehCIcM0oBC5GVqd1eg2EGGnjHXKP71yzHoX0cnis8hsru4t8DeON1mvUve-MPocLJkgA3WCROoX_AAaeBnby9XXm6",
+  "g2": "https://lh3.googleusercontent.com/grass-cs/AABkmLetx6FKjEj2AMZaJh539PSPPn_KOfqxLzUSQgmV2zY9tzfKYoGQZpNKiuR7F618Pw4pKqyf3nrO8HStK75AgHzB7Y3X7dJgeRiqJPw8CmvHXNlHrzLUhwYh3tivs1x_7RcJ9PfdD_hrK_y1",
+  "g3": "https://lh3.googleusercontent.com/grass-cs/AABkmLcN4MRywlLIgmDd5KmmR-QfNtWJRMq0o_aXi5e1-9fi9ELC-_-ny9ximQ9BlvMG1XU6eow0umEDmhOqXeZNePP4sX1C1akGcpZwOVVVuGeTKwEQJa8wNxJKuZ6i-QRFFZkS4XFU2TpURxvM",
+  "g4": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyuI9_tjDxWxpk3AcRVNFr9KfrcCRKwLLQwo85blro9TCtWr4aeGCH13k8vQKm6FGK5LxTg0wYTn7DEzxeIwGot9ln5Nl6aRabZ7F1Md5yi7JEUT1xVyrGcby8rh4uNtlglJr62kSNy4w2",
+  "g5": "https://lh3.googleusercontent.com/grass-cs/AABkmLdtt6XOIspAoixDg7GZQQserbQACWKoPSOv-VhbQpmX2pyJ2WpRrSOyCLvMgZnn4TP6HVaFgZjqLneoT-bVqCp1O8AaunWskYMO3ukxCAzertnc_JwQn3EQc7kmP8Yhayp2dLTXs-bqw-A",
+  "door": "https://lh3.googleusercontent.com/grass-cs/AABkmLdtt6XOIspAoixDg7GZQQserbQACWKoPSOv-VhbQpmX2pyJ2WpRrSOyCLvMgZnn4TP6HVaFgZjqLneoT-bVqCp1O8AaunWskYMO3ukxCAzertnc_JwQn3EQc7kmP8Yhayp2dLTXs-bqw-A"
+ },
+ "hero": "hero",
+ "about_photo": "inside",
+ "wide": "wide",
+ "menu_label": "メニュー",
+ "gallery": [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5"
+ ],
+ "info_photo": "door",
+ "link_label": "Instagramを見る",
+ "info_note": "※営業日・営業時間は変更になる場合があります。最新情報はInstagramでお知らせしています。"
+}
