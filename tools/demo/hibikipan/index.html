@@ -1,0 +1,69 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>パン教室の予約（見本）｜くらし＋おうちパン 日々木（ひびき）様向け</title>
+<style>
+:root{--g:#a8693a;--g2:color-mix(in srgb,#a8693a 12%,#fff);--ink:#22302a;--line:#d7e0da;--acc:#6f8f3f}
+*{box-sizing:border-box}body{margin:0;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;color:var(--ink);background:#f6f8f6;line-height:1.7}
+.bar{background:#22302a;color:#fff;font-size:12px;text-align:center;padding:7px 10px}.bar a{color:#ffd9a8}
+header{background:#fff;border-bottom:1px solid var(--line)}header .w{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.w{max-width:1040px;margin:auto;padding:16px 20px}.logo{font-weight:800;font-size:18px}.logo small{display:block;font-size:11px;color:#6a7a71;font-weight:500}
+.tel{font-size:13px;color:#6a7a71;text-align:right}.tel b{font-size:18px;color:var(--g)}
+.hero{background:var(--g);color:#fff}.hero h1{margin:0 0 6px;font-size:26px}.hero p{margin:0;opacity:.92}
+.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;margin-top:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px}
+h2{font-size:17px;margin:0 0 12px}.step{display:inline-block;background:var(--g);color:#fff;border-radius:99px;font-size:12px;padding:1px 10px;margin-right:6px}
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.cats label{border:1.5px solid var(--line);border-radius:10px;padding:10px 6px;text-align:center;font-size:13px;cursor:pointer;background:#fff}
+.cats input{display:none}.cats label:has(input:checked){border-color:var(--g);background:var(--g2);font-weight:700}
+.cats span{display:block;font-size:22px}
+.est{margin-top:14px;background:#fff8ef;border:1px solid #f1d6b3;border-radius:10px;padding:12px 14px;font-size:14px}
+.est b{font-size:20px;color:var(--acc)}.note{font-size:11.5px;color:#7a857f}
+.drop{display:block;border:2px dashed #b9c9bf;border-radius:12px;padding:16px;text-align:center;font-size:13px;color:#5d6c64;margin-top:6px;cursor:pointer}
+.thumbs{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}.thumbs img{width:76px;height:76px;object-fit:cover;border-radius:8px}
+.slots{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}.slots button{border:1.5px solid var(--line);background:#fff;border-radius:8px;padding:8px 2px;font:inherit;font-size:13px;cursor:pointer}.slots button.on{border-color:var(--g);background:var(--g2);font-weight:700}.slots button:disabled{color:#b5bdb8;background:#f1f3f2;text-decoration:line-through;cursor:default}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:10px}.f label{font-size:12.5px;color:#4d5c54}.f input,.f select,textarea{width:100%;border:1px solid #c7d3cb;border-radius:8px;padding:9px;font:inherit;font-size:14px}
+textarea{height:70px}.full{grid-column:1/3}
+.btn{display:block;width:100%;background:var(--acc);color:#fff;border:0;border-radius:10px;padding:14px;font-size:16px;font-weight:700;margin-top:14px;cursor:pointer}
+.mail{font-size:13px}.mail .hd{background:var(--g2);border-radius:8px;padding:8px 10px;margin-bottom:10px;font-weight:700}
+.mail dl{display:grid;grid-template-columns:86px 1fr;gap:4px 8px;margin:0}.mail dt{color:#6a7a71}.mail dd{margin:0}
+.pts li{margin-bottom:6px;font-size:14px}
+@media(max-width:820px){.grid{grid-template-columns:1fr}.cats{grid-template-columns:repeat(3,1fr)}.hero h1{font-size:21px}}
+</style></head><body>
+<div class="bar">これは中小企業DX研究所が作った<b>見本</b>です（くらし＋おうちパン 日々木（ひびき）様のサイトとは関係ありません）。入力内容はどこにも送信されません。｜<a href="https://chusho-dx.com">中小企業DX研究所</a></div>
+<header><div class="w"><div class="logo">くらし＋おうちパン 日々木（ひびき）<small>福岡県篠栗町・おうちパン教室</small></div></div></header>
+<div class="hero"><div class="w"><h1>開催日を選んで、おうちパン教室をそのまま予約できます</h1><p>国産小麦のパン作りと、畑の野菜のスープ・サラダを楽しむ教室です。空いている日を選んで予約できます。</p></div></div>
+<div class="w"><div class="grid">
+<div class="card">
+<h2><span class="step">1</span>参加したいコースを選んでください</h2>
+<div class="cats" id="cats"></div>
+<div class="est" id="est">選ぶと、目安が表示されます。</div>
+<p class="note">※表示内容は見本で、金額・時間はすべて仮です。実際は御社の内容に合わせて設定します。</p>
+<h2 style="margin-top:18px"><span class="step">2</span>ご希望の日時を選ぶ</h2>
+<div class="f"><div><label>ご希望日</label><input id="d2" type="date"></div><div><label>&nbsp;</label><div class="note">空いている時間だけ表示されます（見本）</div></div></div><div class="slots" id="sl"></div>
+<h2 style="margin-top:18px"><span class="step">3</span>ご連絡先</h2>
+<div class="f">
+<div><label>お名前</label><input id="nm" placeholder="山田 花子"></div>
+<div><label>お住まい</label><select id="ar"><option>篠栗町</option><option>福岡市</option><option>粕屋町</option><option>その他</option></select></div>
+<div><label>ご連絡方法</label><select id="ct"><option>お電話</option><option>メール</option><option>LINE</option></select></div>
+<div><label>参加人数</label><input id="dt" type="text" placeholder="例：2名"></div>
+<div class="full"><label>ご質問・ご希望（任意）</label><textarea id="ms" placeholder="例：初めてでパン作りが不安です"></textarea></div>
+</div>
+<button class="btn" id="go">この日で予約する（見本なので送信されません）</button>
+</div>
+<div>
+<div class="card mail"><div class="hd">📩 くらし＋おうちパン 日々木（ひびき）様に届く内容（イメージ）</div>
+<dl><dt>コース</dt><dd id="o1">―</dd><dt>参加費の目安</dt><dd id="o2">―</dd><dt>希望日時</dt><dd id="o3">―</dd><dt>お名前</dt><dd id="o4">―</dd><dt>お住まい</dt><dd id="o5">―</dd><dt>連絡方法</dt><dd id="o6">―</dd><dt>人数</dt><dd id="o7">―</dd><dt>内容</dt><dd id="o8">―</dd></dl>
+<p class="note" style="margin-top:10px">メール・LINE・スプレッドシートの一覧など、届け方は自由に選べます。</p></div>
+<div class="card" style="margin-top:16px"><h2>この仕組みでできること</h2><ul class="pts"><li>コース・人数・日時が<b>選ぶだけで揃って届く</b></li><li>準備中でお電話に出られなくても、<b>予約を取りこぼさない</b></li><li>日程が重ならず、<b>やり取りが減る</b></li><li>予約は一覧に残り、<b>材料の準備</b>がしやすい</li></ul></div>
+</div></div></div>
+<div class="w note" style="text-align:center;padding-bottom:30px">見本：中小企業DX研究所 ／ https://chusho-dx.com</div>
+<script>
+const C=[["🍞", "食パン・ふんわりパン", "○○円（仮）"], ["🥐", "菓子パン・惣菜パン", "○○円（仮）"], ["🥖", "ハード系のパン", "○○円（仮）"], ["🍲", "パン＋スープ・サラダ", "○○円（仮）"], ["🌱", "初めての方", "○○円（仮）"]],S=["平日 10:00", "平日 13:30", "土曜 10:00", "土曜 13:30", "日曜 10:00", "日曜 13:30"],MODE="slots";
+const cats=document.getElementById('cats');C.forEach((c,i)=>cats.insertAdjacentHTML('beforeend',`<label><input type=radio name=c value=${i}><span>${c[0]}</span>${c[1]}</label>`));
+const $=id=>document.getElementById(id);let sel=null,v3='';
+cats.addEventListener('change',e=>{sel=C[e.target.value];$('est').innerHTML=`<b>${sel[2]}</b>　<span class=note>（${sel[1]}・見本の表示）</span>`;upd()});
+if(MODE==='photo'){$('ph').addEventListener('change',e=>{$('th').innerHTML='';[...e.target.files].slice(0,3).forEach(f=>{const i=new Image();i.src=URL.createObjectURL(f);$('th').append(i)});v3=Math.min(3,e.target.files.length)+'枚';upd()})}
+else{const sl=$('sl');const draw=()=>{sl.innerHTML='';const d=$('d2').value;S.forEach((t,i)=>{const b=document.createElement('button');b.textContent=t;b.disabled=d?((d.charCodeAt(9)+i)%4===0):(i%4===0);b.onclick=()=>{[...sl.children].forEach(x=>x.classList.remove('on'));b.classList.add('on');v3=(d||'日付未選択')+' '+t;upd()};sl.append(b)})};$('d2').addEventListener('input',()=>{v3='';draw();upd()});draw()}
+['nm','ar','ct','dt','ms'].forEach(k=>$(k).addEventListener('input',upd));
+function upd(){$('o1').textContent=sel?sel[1]:'―';$('o2').textContent=sel?sel[2]:'―';$('o3').textContent=v3||'―';$('o4').textContent=$('nm').value||'―';$('o5').textContent=$('ar').value;$('o6').textContent=$('ct').value;$('o7').textContent=$('dt').value||'―';$('o8').textContent=$('ms').value||'―'}
+$('go').onclick=()=>{$('go').textContent='送信イメージ：右側の内容がくらし＋おうちパン 日々木（ひびき）様に届きます'};upd();
+</script></body></html>
