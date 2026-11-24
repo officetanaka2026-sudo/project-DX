@@ -14,7 +14,8 @@ css=re.sub(r':root\{[^}]*\}',root,css,count=1)
 extra=c.get('css','')
 P={k:(v if v.startswith('http') else 'https://lh3.googleusercontent.com/gps-cs-s/'+v) for k,v in c['photos'].items()}
 def img(k,alt=''):
-    return f'<img src="{P[k]}=w1600" alt="{E(alt)}">'
+    u=P[k]; u=u if 'unsplash' in u else u+'=w1600'
+    return f'<img src="{u}" alt="{E(alt)}">'
 nav=''.join(f'<a href="#{h}">{E(t)}</a>' for h,t in [('about','お店について'),('menu',c.get('menu_label','こだわり')),('gallery','ギャラリー'),('info','営業案内')])
 pts=''.join(f'<div><div class="photo">{img(p["photo"],p["title"])}</div><div class="num">0{i+1}</div><h3>{E(p["title"])}</h3><p>{E(p["text"])}</p></div>' for i,p in enumerate(c['points']))
 gal=''.join(f'<div class="{cl}">{img(k)}</div>' for cl,k in zip(['t','w','','','w'],c['gallery']))
