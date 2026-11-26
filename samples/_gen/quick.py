@@ -33,6 +33,6 @@ for s in json.load(open(sys.argv[1],encoding='utf-8')):
       photos=({**{k:U(i) for k,i in zip(KEYS,ids[1:]+ids[:1])},'hero':'https://lh3.googleusercontent.com/'+s['hero_real']} if s.get('hero_real') else {k:U(i) for k,i in zip(KEYS,ids)}),hero='hero',h1=s['h1'],lede=s['lede'],about_photo='inside',about_h2=s['about_h2'],about=s['about'],
       menu_label=s.get('menu_label','特長'),points_h2=s['points_h2'],points=[dict(photo=f'p{i+1}',title=t,text=x) for i,(t,x) in enumerate(s['points'])],
       wide='wide',wide_text=s['wide_text'],gallery=['g1','g2','g3','g4','g5'],gallery_h2=s.get('gallery_h2','イメージ'),info=s['info'],info_photo='door',
-      info_note=s.get('info_note','')+('※写真はGoogleマップ掲載の写真をもとにした見本です。実際は店舗様の写真に差し替えて制作します。' if s.get('hero_real') else '※写真はイメージ（フリー素材）です。実際の写真に差し替えて制作します。'),link=s['link'],link_label='Instagramを見る',map_q=s['map_q'],address=s['address'])
+      info_note=s.get('info_note','')+('※トップの写真はGoogleマップ掲載の写真、ほかはイメージ（フリー素材）です。実際は店舗様の写真に差し替えて制作します。' if s.get('hero_real') else '※写真はイメージ（フリー素材）です。実際の写真に差し替えて制作します。'),link=s['link'],link_label='Instagramを見る',map_q=s['map_q'],address=s['address'])
     json.dump(c,open(f"{d}/configs/{s['slug']}.json",'w'),ensure_ascii=False)
     print(subprocess.check_output(['python3',f'{d}/make_hp.py',f"{d}/configs/{s['slug']}.json"]).decode().strip())
